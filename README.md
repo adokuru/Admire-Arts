@@ -1,1 +1,1 @@
-# Amire-Arts
+# Admire-Arts
