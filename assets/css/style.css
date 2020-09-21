@@ -1524,3 +1524,19 @@ section {
   background: #fff;
   z-index: 1;
 }
+
+/* Mega Menu */
+
+.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+.artist{
+  background-color:#F8F8F8 ;
+}
