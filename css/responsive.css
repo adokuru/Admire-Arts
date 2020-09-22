@@ -1,0 +1,2330 @@
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px){
+
+    
+   
+    
+    
+    
+    
+    
+    
+ 
+    
+}
+
+
+/* Medium screen  */ 
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+    
+/*** Intro Area Css ***/ 
+.intro-box .inner-content {
+    max-width: 450px;
+}    
+
+/*** Latest Blog Area Css ***/     
+.blog-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    top: auto;
+    right: auto;
+    margin: 0;
+    left: 0;
+    bottom: auto;
+    top: -100px;
+}    
+.latest-blog-title {
+    padding-bottom: 130px;
+}    
+    
+/*** Subscribe Area Css ***/ 
+.subscribe-area {
+    padding: 90px 0 100px;
+}    
+.subscribe-title {
+    text-align: center;
+}    
+.subscribe-area .subscribe-box {
+    margin: 40px 0 0;
+}    
+    
+/*** Footer Area Css ***/ 
+.single-footer-widget.pdtop50{
+    padding-top: 50px;
+}    
+.single-footer-widget.opening-hours-box {
+    margin-left: 315px;
+}
+.single-footer-widget.follow-sociallinks-widget-box {
+    margin-top: 45px;
+    margin-left: 315px;
+}    
+    
+
+/*** Featured Area Css ***/ 
+.featured-area {
+    padding-top: 100px;
+}    
+.featured-items {
+    max-width: 560px;
+    width: 100%;
+    padding: 97px 0 97px;
+}    
+    
+/*** Events Style2 Area Css ***/ 
+.events-style2-area {
+    padding: 120px 0 80px;
+} 
+.events-style2-area .top {
+    padding-bottom: 60px;
+}    
+.single-event-box-style2 .text-holder.pd-left-30 {
+    padding-left: 0px;
+}    
+.single-event-box-style2 .text-holder.pd-right-30 {
+    padding-right: 0;
+    margin-bottom: 40px;
+} 
+.single-event-box-style2 .text-holder h2 {
+    font-size: 24px;
+    line-height: 40px;
+    margin: 18px 0 28px;
+}     
+.event-carousel-style2 {
+    padding: 0 150px;
+}        
+.event-carousel-style2.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
+    top: -100px;
+    left: 0;
+}    
+.event-carousel-style2.owl-nav-style-one.owl-theme .owl-nav .owl-next {
+    bottom: auto;
+    top: -100px;
+}        
+    
+/*** Partner Area Css ***/      
+.testimonial-style1-box .top {
+    padding: 85px 100px 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 0 61px;
+}    
+.testimonial-style1-box .top .text {
+    margin-top: 24px;
+}    
+  
+
+    
+    
+    
+/*** Main Header Style3 Area Css ***/      
+.main-menu.style3 .navigation>li {
+    margin-right: 20px;
+}    
+ 
+/*** About Style2 Area Css ***/      
+.about-style1-content.style2 {
+    padding-top: 120px;
+    padding-right: 0;
+    padding-bottom: 60px;
+} 
+.about-style2-image-box {
+    margin-top: 0;
+}       
+.about-style2-image-box img {
+    max-width: none;
+    float: none;
+}  
+.about-style2-image-box .text-box {
+    top: 217px;
+    left: 100px;
+}
+.visit-plan-box {
+    -webkit-box-shadow: 0px -4px 8px 2px #F2F2F2; 
+    box-shadow: 0px -4px 8px 2px #F2F2F2;
+}
+.exhibitions-style2-area {
+    margin-top: 0;
+}    
+   
+    
+    
+    
+/*** Events Style3 Area Css ***/       
+.single-event-box-style3 .title-holder {
+    margin-right: 0px;
+    padding: 0px 0 0;
+    margin-top: 40px;
+}    
+.single-event-box-style3 .date-holder {
+    width: 170px;
+    height: 75px;
+    margin-bottom: 30px;
+}
+    
+/*** Subscribe Area Style3 Css ***/
+.welcome-content {
+    padding-top: 0px;
+}      
+.welcome-content .sec-title {
+    padding-bottom: 2px;
+}       
+.welcome-content ul {
+    margin-top: 40px;
+}    
+.welcome-image-box {
+    margin-top: 50px;
+}       
+
+    
+ 
+    
+    
+/*** Main Header Style4 Css ***/    
+.main-menu.style4 .navigation>li>a {
+    padding: 24px 10px 26px;
+}    
+.menu-right-content-style4 .outer-search-box-style1 {
+    margin: 0 20px;
+}    
+    
+/*** contact Us Area Css ***/       
+.contact-us-area .left-content {
+    max-width: 340px;
+    width: 100%;
+}    
+.contact-us-area .right-content {
+    left: 340px;
+    min-height: 120px;
+    padding: 23px 42px 20px;
+    padding-right: 0;
+}    
+.contact-us-area .right-content ul li {
+    margin-right: 50px;
+}  
+.contact-us-area .right-content ul li h3 {
+    font-size: 26px;
+}    
+.contact-us-area .right-content ul li p {
+    font-size: 15px;
+}    
+    
+/*** About Style3 Area Css ***/     
+.about-style1-content.style3.right-content {
+    margin-top: 33px;
+    margin-right: 50px;
+}
+    
+/*** Fact Testimonial Area Css ***/ 
+.fact-counter-box ul:before {
+    background-position: 50% 26%;
+}    
+.fact-counter-box ul li {
+    width: 50%;
+    text-align: center;
+}    
+.testimonial-box-holder {
+    padding-top: 120px;
+}    
+.testimonial-box-holder .testimonial-box-holder-bg {
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: -375px;
+}
+.testimonial-box-holder.style2 .testimonial-box-holder-bg {
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}      
+    
+/*** Subscribe Area style4 Css ***/     
+.subscribe-area.style4 .welcome-content.style2 .sec-title {
+    padding-bottom: 52px;
+}    
+.subscribe-area.style4 .welcome-content.style2 .subscribe-box {
+    margin: 0 auto 21px;
+}    
+    
+/*** Art Style4 Area Css ***/ 
+.art-style4-area .sec-title {
+    padding-bottom: 130px;
+}    
+.art-carousel-style2.owl-nav-style-one.owl-theme .owl-stage-outer {
+    padding-bottom: 20px;
+    margin-right: 0px;
+}    
+.art-carousel-style2.owl-nav-style-one.owl-theme .owl-nav {
+    top: -100px;
+    bottom: auto;
+    right: auto;
+    margin: 0;
+    left: 0;
+}   
+    
+/*** Art Area Art page Css ***/     
+.art-area.art-page .sec-title {
+    padding-bottom: 25px;
+    float: none !important;
+    text-align: center;
+}   
+.art-area.art-page .filters {
+    margin-top: 0px;
+    margin-bottom: 0;
+    float: none !important;
+    padding-bottom: 60px;
+}    
+ 
+/*** Google Map Area Css ***/      
+.contactpage-company-info-box {
+    margin-bottom: 70px;
+}    
+
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+/*** Main Header Style ***/
+.header-upper .outer-box {
+    padding: 0 20px;
+    background: #ffffff;
+    border-radius: 0;
+}   
+.header-upper-left {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    float: none !important;
+    z-index: 999;
+}
+.header-upper-left .logo {
+    padding: 22px 0;
+}    
+.header-upper-right {
+    float: none !important;
+}    
+.menu-right-content {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    float: none;
+    margin-left: 0;
+    z-index: 999;
+}    
+.menu-right-content .outer-search-box-style1 {
+    padding: 30px 0;
+}    
+    
+/*** Intro Area Css ***/   
+.plan-your-visit {
+    position: static;
+    background: rgba(0, 0, 0, 0.50);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 370px;
+    width: 100%;
+    padding: 26px 50px 26px;
+    border-radius: 20px;
+    margin-top: 50px;
+} 
+    
+/*** Latest Blog Area Css ***/     
+.blog-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    top: auto;
+    right: auto;
+    margin: 0;
+    left: 0;
+    bottom: auto;
+    top: -100px;
+}    
+.latest-blog-title {
+    padding-bottom: 130px;
+}    
+   
+/*** Subscribe Area Css ***/ 
+.subscribe-area {
+    padding: 90px 0 100px;
+}    
+.subscribe-title {
+    text-align: center;
+}    
+.subscribe-area .subscribe-box {
+    margin: 40px 0 0;
+}    
+    
+/*** Footer Area Css ***/ 
+.single-footer-widget.pdtop50{
+    padding-top: 50px;
+}    
+.single-footer-widget.opening-hours-box {
+    margin-left: 235px;
+}
+.single-footer-widget.follow-sociallinks-widget-box {
+    margin-top: 45px;
+    margin-left: 235px;
+}  
+    
+  
+    
+    
+/*** Main Header Style2 Area Css ***/ 
+.header-upper-style2 {
+    position: relative;
+    display: block;
+    padding: 0 20px;
+}    
+.header-upper-left-style2 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: auto;
+    background: transparent;
+    float: none !important;
+    z-index: 999;
+}  
+.header-upper-left-style2 .logo {
+    padding: 22px 0;
+}    
+
+    
+.header-upper-midlle-style2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: transparent;
+    float: none !important;
+}    
+.header-upper-midlle-style2 .nav-outer {
+    padding-left: 0;
+}    
+.menu-right-content-style2 {
+    position: absolute;
+    top: 0;
+    right: 120px;
+    float: none;
+    padding-right: 0;
+    z-index: 999;
+}
+.menu-right-content-style2 .user-icon-holder a {
+    margin: 30px 0;
+}
+.menu-right-content-style2 .outer-search-box-style1 {
+    margin: 0 15px;
+    padding: 30px 0;
+}
+.menu-right-content-style2 .cart-box-style1 {
+    padding: 25px 0;
+}    
+
+    
+.header-upper-right-style2 {
+    position: absolute;
+    top: 0;
+    right: 80px;
+    float: none !important;
+    width: 45px;
+    height: 90px;
+    background: rgba(21, 14, 9, 0.80);
+    z-index: 999;
+}
+.header-upper-right-style2 a.nav-toggler {
+    margin: 34px 7px;
+}    
+    
+ 
+/*** Contact Info Area Css ***/ 
+.contact-info-holder {
+    padding: 70px 150px 70px !important;
+}    
+.contact-info-holder li {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width:  100%;
+    margin-bottom: 50px;
+}    
+.contact-info-holder li:last-child{
+    margin-bottom: 0;
+}    
+    
+/*** Featured Area Css ***/ 
+.featured-area {
+    padding-top: 100px;
+}    
+.featured-items {
+    max-width: 320px;
+    width: 100%;
+    padding: 97px 0 97px;
+}  
+.featured-items ul {
+    padding-left: 40px;
+}    
+    
+/*** Events Style2 Area Css ***/ 
+.events-style2-area {
+    padding: 120px 0 80px;
+}  
+.events-style2-area .top .sec-title {
+    padding-bottom: 0px;
+    float: none !important;
+}    
+.events-style2-area .top .see-all-events-button {
+    margin-top: 25px;
+    float: none !important;
+    padding-bottom: 130px;
+}        
+.single-event-box-style2 .text-holder.pd-left-30 {
+    padding-left: 0px;
+}    
+.single-event-box-style2 .text-holder.pd-right-30 {
+    padding-right: 0;
+    margin-bottom: 40px;
+} 
+.single-event-box-style2 .text-holder h2 {
+    font-size: 24px;
+    line-height: 40px;
+    margin: 18px 0 28px;
+}     
+.event-carousel-style2 {
+    padding: 0 0px;
+}        
+.event-carousel-style2.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
+    top: -100px;
+    left: 0;
+}    
+.event-carousel-style2.owl-nav-style-one.owl-theme .owl-nav .owl-next {
+    bottom: auto;
+    top: -100px;
+}          
+        
+/*** Partner Area Css ***/      
+.testimonial-style1-box .top {
+    padding: 85px 100px 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 0 61px;
+}    
+.testimonial-style1-box .top .text {
+    margin-top: 24px;
+}    
+.testimonial-style1-box .botton {
+    padding: 0 140px 70px;
+}      
+    
+    
+    
+    
+    
+/*** Main Header Style3 Area Css ***/    
+.header-upper-left-style3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: none !important;
+    z-index: 999;
+}    
+.header-upper-left-style3 .logo {
+    padding: 22px 0;
+}    
+.header-upper-right-style3 {
+    float: none !important;
+}    
+.menu-right-content-style3 {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    float: none;
+    z-index: 999;
+}    
+.menu-right-content-style3 .outer-search-box-style1 {
+    padding: 30px 0;
+    margin: 0 0px;
+    margin-right: 15px;
+}    
+.menu-right-content-style3 .buy-ticket-button {
+    padding: 20px 0;
+}    
+.menu-right-content-style3 .buy-ticket-button a {
+    padding: 0 30px;
+}    
+    
+/*** About Style2 Area Css ***/ 
+.visit-plan-box {
+    -webkit-box-shadow: 0px -4px 8px 2px #F2F2F2; 
+    box-shadow: 0px -4px 8px 2px #F2F2F2;
+}      
+.about-style1-content.style2 .pattern-bg {
+    left: -220px;
+}    
+.about-style1-content.style2 {
+    padding-top: 120px;
+    padding-right: 0;
+    padding-bottom: 60px;
+} 
+.about-style2-image-box {
+    margin-top: 0;
+}     
+.about-style2-image-box img {
+    max-width: 100%;
+    float: none;
+}    
+.about-style2-image-box .text-box {
+    top: 217px;
+    left: 60px;
+} 
+    
+/*** Exhibitions Style2 Area Css ***/     
+.exhibitions-style2-area {
+    margin-top: 0;
+}    
+.exhibitions-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+    left: auto;
+    bottom: 40px;
+    text-align: right;
+    right: 35px;
+}       
+    
+/*** Events Style3 Area Css ***/       
+.single-event-box-style3 .title-holder {
+    margin-right: 0px;
+    padding: 0px 0 0;
+    margin-top: 40px;
+}    
+.single-event-box-style3 .date-holder {
+    width: 170px;
+    height: 75px;
+    margin-bottom: 30px;
+}  
+    
+/*** Testimonial Area Css ***/          
+.testimonial-carousel-style2 {
+    padding: 120px 0px 104px;
+    padding-right: 130px;
+}    
+    
+/*** Latest Blog Area Css ***/        
+.latest-blog-style3-area .top .sec-title {
+    padding-bottom: 0px;
+    float: none !important;
+}    
+.latest-blog-style3-area .top .view-more-button {
+    margin-top: 32px;
+    margin-bottom: 60px;
+    float: none !important;
+}    
+    
+/*** Subscribe Area Style3 Css ***/
+.welcome-content {
+    padding-top: 0px;
+}      
+.welcome-content .sec-title {
+    padding-bottom: 2px;
+}       
+.welcome-content ul {
+    margin-top: 40px;
+}    
+.welcome-image-box {
+    margin-top: 50px;
+}       
+        
+/*** Footer Style3 Area Css ***/    
+.single-footer-widget-style2.marbtm50 {
+    margin-bottom: 50px;    
+}    
+    
+    
+    
+    
+    
+/*** Main Header Style4 Css ***/  
+.header-upper-left-style4 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    float: none !important;
+    z-index: 999;
+}   
+.header-upper-left-style4 .logo {
+    padding: 22px 0;
+}    
+.header-upper-right-style4 {
+    float: none !important;
+}    
+.menu-right-content-style4 {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    float: none;
+    z-index: 999;
+}    
+.menu-right-content-style4 .outer-search-box-style1 {
+    padding: 30px 0;
+    margin: 0 15px;
+    margin-left: 0;
+}    
+.menu-right-content-style4 .buy-ticket-button {
+    padding: 20px 0;
+}    
+.header-upper-style4 .outer-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #ffffff;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}    
+    
+/*** contact Us Area Css ***/       
+.contact-us-area .left-content {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}    
+.contact-us-area .right-content {
+    position: relative;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 120px;
+    padding: 23px 42px 20px;
+    padding-right: 0;
+}
+.contact-us-area .right-content:before {
+    top: -35px;
+    left: 0;
+    bottom: -30px;
+    right: -20000px;
+}    
+.contact-us-area .right-content ul li {
+    margin-right: 40px;
+}    
+    
+/*** About Style3 Area Css ***/     
+.about-style1-content.style3.right-content {
+    margin-top: 33px;
+    margin-right: 0px;
+}
+       
+/*** Fact Testimonial Area Css ***/ 
+.fact-counter-box ul:before {
+    background-position: 50% 26%;
+}    
+.fact-counter-box ul li {
+    width: 50%;
+    text-align: center;
+}    
+.testimonial-box-holder {
+    padding-top: 120px;
+}    
+.testimonial-box-holder .testimonial-box-holder-bg {
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: -375px;
+} 
+.testimonial-box-holder .testimonial-carousel-style2 {
+    padding: 0;
+    padding-left: 100px;
+    padding-bottom: 120px;
+    padding-right: 100px;
+}    
+.testimonial-box-holder.style2 .testimonial-box-holder-bg {
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}       
+        
+/*** Subscribe Area style4 Css ***/     
+.subscribe-area.style4 .welcome-content.style2 .sec-title {
+    padding-bottom: 52px;
+}    
+.subscribe-area.style4 .welcome-content.style2 .subscribe-box {
+    margin: 0 auto 21px;
+}    
+        
+/*** Art Style4 Area Css ***/ 
+.art-style4-area .sec-title {
+    padding-bottom: 130px;
+}    
+.art-carousel-style2.owl-nav-style-one.owl-theme .owl-stage-outer {
+    padding-bottom: 20px;
+    margin-right: 0px;
+}    
+.art-carousel-style2.owl-nav-style-one.owl-theme .owl-nav {
+    top: -100px;
+    bottom: auto;
+    right: auto;
+    margin: 0;
+    left: 0;
+}   
+    
+/*** Footer Style4 Area Css ***/         
+.single-footer-widget-style3.marbtm60{
+    margin-bottom: 60px;
+}    
+    
+/*** Art Area Art page Css ***/     
+.art-area.art-page .sec-title {
+    padding-bottom: 25px;
+    float: none !important;
+    text-align: center;
+}   
+.art-area.art-page .filters {
+    margin-top: 0px;
+    margin-bottom: 0;
+    float: none !important;
+    padding-bottom: 60px;
+}        
+    
+/*** Latest Blog Style3 Area Blog Page Css ***/ 
+.latest-blog-style3-area .top .sec-title.pdbtm42{
+    padding-bottom: 42px;
+}     
+.single-blog-post .text-holder {
+    padding: 26px 20px 27px;
+    margin-right: 20px;
+    margin-top: -60px;
+}    
+        
+/*** Blog Single Area Css ***/     
+.blog-single-area .sidebar-wrapper {
+    padding-top: 100px;
+}    
+    
+/*** Google Map Area Css ***/      
+.contactpage-company-info-box {
+    margin-bottom: 70px;
+}    
+        
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+ 
+    
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    
+.sec-title {
+    padding-bottom: 54px;
+}    
+.sec-title p br{
+    display: none;
+} 
+.sec-title .big-title {
+    padding: 19px 0 0;
+}    
+.sec-title .big-title h1 {
+    font-size: 40px;
+    line-height: 60px;
+}    
+.sec-title .big-title h1 br{
+    display: none;
+}    
+    
+/*** Main Header Style ***/
+.header-top-left ul li {
+    margin-right: 20px;
+}    
+.header-upper .outer-box {
+    padding: 0 20px;
+    background: #ffffff;
+    border-radius: 0;
+}   
+.header-upper-left {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    float: none !important;
+    z-index: 999;
+}
+.header-upper-left .logo {
+    padding: 22px 0;
+}    
+.header-upper-right {
+    float: none !important;
+}    
+.menu-right-content {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    float: none;
+    margin-left: 0;
+    z-index: 999;
+}    
+.menu-right-content .outer-search-box-style1 {
+    padding: 30px 0;
+}    
+.menu-right-content .outer-search-box-style1 .search-box.now-visible {
+    margin-right: -90px;
+}        
+    
+/*** Intro Area Css ***/ 
+.intro-box {
+    padding: 67px 20px 70px;
+}    
+.plan-your-visit {
+    position: static;
+    background: rgba(0, 0, 0, 0.50);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 370px;
+    width: 100%;
+    padding: 26px 20px 26px;
+    border-radius: 20px;
+    margin-top: 50px;
+}  
+.plan-your-visit ul li {
+    padding-left: 70px;
+} 
+.plan-your-visit ul li .title-holder p br{
+    display: none;
+}    
+  
+/*** Events Area Css ***/ 
+.events-area .sec-title {
+    padding-bottom: 115px;
+}    
+.single-event-box .title-holder {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -70px;
+}
+.single-event-box .title-holder .inner {
+    padding: 34px 20px 34px;
+}   
+.single-event-box .title-holder .inner h3 {
+    font-size: 20px;
+    line-height: 32px;
+}    
+.single-event-box .title-holder .bottom {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 12px;
+}    
+.event-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+    top: -70px;
+    right: auto;
+    left: 5px;
+} 
+ 
+/*** Art Area Css ***/ 
+.art-area .top {
+    flex-direction: row;
+    justify-content: end;
+    align-content: flex-end;
+}  
+.art-area .top .sec-title {
+    padding-bottom: 42px;
+}   
+.art-area .top .view-more-button {
+    margin-top: 0;
+    padding-bottom: 60px;
+}
+
+/*** Latest Blog Area Css ***/     
+.blog-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    top: auto;
+    right: auto;
+    margin: 0;
+    left: 0;
+    bottom: auto;
+    top: -100px;
+}    
+.latest-blog-title {
+    padding-bottom: 130px;
+}    
+    
+/*** Subscribe Area Css ***/ 
+.subscribe-area {
+    padding: 90px 0 100px;
+}    
+.subscribe-title {
+    text-align: center;
+}    
+.subscribe-area .subscribe-box {
+    margin: 40px 0 0;
+}    
+.subscribe-area .subscribe-form input[type="email"] {
+    padding: 0 20px;
+    padding-right: 110px;
+}        
+.subscribe-area .subscribe-form button {
+    width: 105px;
+}    
+    
+/*** Footer Area Css ***/ 
+.single-footer-widget.pdtop50{
+    padding-top: 50px;
+}  
+.single-footer-widget.marbtm50{
+    margin-bottom: 50px;
+}    
+.single-footer-widget.opening-hours-box {
+    margin-left: 0;
+}
+.single-footer-widget.follow-sociallinks-widget-box {
+    margin-top: 50px;
+    margin-left: 0;
+}    
+    
+.single-footer-widget .contact-us p {
+    margin: 0 0 19px;
+}    
+.footer-bottom .outer-box {
+    flex-direction: column;
+    text-align: center;
+}
+.footer-bottom-right .copyright-text {
+    margin-top: 8px;
+}    
+    
+
+    
+
+    
+/*** Main Header Style2 Area Css ***/ 
+.header-upper-style2 {
+    position: relative;
+    display: block;
+    padding: 0 20px;
+}    
+.header-upper-left-style2 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: auto;
+    background: transparent;
+    float: none !important;
+    z-index: 999;
+}  
+.header-upper-left-style2 .logo {
+    padding: 22px 0;
+}    
+
+    
+.header-upper-midlle-style2 {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: transparent;
+    float: none !important;
+}    
+.header-upper-midlle-style2 .nav-outer {
+    padding-left: 0;
+}    
+.menu-right-content-style2 {
+    position: absolute;
+    top: 0;
+    right: 110px;
+    float: none;
+    padding-right: 0;
+    z-index: 999;
+}
+.menu-right-content-style2 .user-icon-holder{
+    display: none;
+}
+.menu-right-content-style2 .outer-search-box-style1 {
+    margin: 0 0px;
+    padding: 30px 0;
+}
+.menu-right-content-style2 .outer-search-box-style1 .search-box.now-visible {
+    right: -110px;
+}    
+    
+.menu-right-content-style2 .cart-box-style1 {
+    display: none;
+}    
+
+    
+.header-upper-right-style2 {
+    position: absolute;
+    top: 0;
+    right: 80px;
+    float: none !important;
+    width: 45px;
+    height: 90px;
+    background: rgba(21, 14, 9, 0.80);
+    z-index: 999;
+}
+.header-upper-right-style2 a.nav-toggler {
+    margin: 34px 7px;
+}    
+    
+/*** Contact Info Area Css ***/ 
+.contact-info-holder {
+    padding: 70px 50px 70px !important;
+}    
+.contact-info-holder li {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width:  100%;
+    margin-bottom: 50px;
+}    
+.contact-info-holder li:last-child{
+    margin-bottom: 0;
+}    
+
+/*** About Style1 Area Css ***/ 
+.about-style1-left-content .img-box {
+    width: 310px;
+    margin: 0;
+}    
+.about-style1-left-content .img-box:before {
+    top: 70px;
+    width: 280px;
+    height: 280px;
+} 
+.about-style1-content .inner-content .bottom-box .button, 
+.about-style1-content .inner-content .bottom-box .phone-number {
+    display: block;
+    vertical-align: middle;
+}  
+.about-style1-content .inner-content .bottom-box .button {
+    margin-bottom: 25px;
+}    
+    
+    
+    
+/*** Featured Area Css ***/ 
+.featured-area {
+    padding-top: 100px;
+} 
+.featured-box {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}    
+.featured-box .title-box {
+    padding-top: 80px;
+    padding-left: 30px;
+    padding-bottom: 62px;
+    padding-right: 30px;
+    max-width: 100%;
+    width: 100%;
+}   
+.featured-items {
+    max-width: 100%;
+    width: 100%;
+    padding: 77px 0 93px;
+}  
+.featured-items:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}    
+.featured-items ul {
+    padding-left: 30px;
+    margin-top: 16px;
+}    
+        
+/*** Events Style2 Area Css ***/ 
+.events-style2-area {
+    padding: 120px 0 80px;
+}    
+.events-style2-area .top .sec-title {
+    padding-bottom: 0px;
+    float: none !important;
+}    
+.events-style2-area .top .see-all-events-button {
+    margin-top: 25px;
+    float: none !important;
+    padding-bottom: 130px;
+}    
+.single-event-box-style2 .text-holder.pd-left-30 {
+    padding-left: 0px;
+}    
+.single-event-box-style2 .text-holder.pd-right-30 {
+    padding-right: 0;
+    margin-bottom: 40px;
+} 
+.single-event-box-style2 .text-holder h2 {
+    font-size: 24px;
+    line-height: 40px;
+    margin: 18px 0 28px;
+}     
+.event-carousel-style2 {
+    padding: 0 0px;
+}        
+.event-carousel-style2.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
+    top: -100px;
+    left: 0;
+}    
+.event-carousel-style2.owl-nav-style-one.owl-theme .owl-nav .owl-next {
+    bottom: auto;
+    top: -100px;
+}    
+ 
+/*** Partner Area Css ***/     
+.single-partner-logo-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}    
+ 
+.single-testimonial-style1 {
+    padding: 39px 30px 50px;
+}    
+.testimonial-style1-box .top {
+    padding: 85px 30px 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 0 61px;
+}    
+.testimonial-style1-box .top .text {
+    margin-top: 24px;
+}    
+.testimonial-style1-box .botton {
+    padding: 0 30px 170px;
+} 
+.single-testimonial-style1 .client-info .image-box, 
+.single-testimonial-style1 .client-info .title-box {
+    display: block;
+    vertical-align: middle;
+}  
+.single-testimonial-style1 .client-info .title-box {
+    padding-left: 0px;
+    margin-top: 19px;
+}    
+.testimonial-carousel.owl-nav-style-one.owl-theme .owl-nav {
+    position: absolute;
+    top: auto;
+    left: 0;
+    bottom: -70px;
+    right: 0;
+    margin: 0;
+    height: 40px;
+}        
+.testimonial-carousel.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
+    left: 0;
+    bottom: 0;
+}
+.testimonial-carousel.owl-nav-style-one.owl-theme .owl-nav .owl-next {
+    right: 0px;
+    bottom: 0;
+} 
+    
+    
+    
+    
+    
+/*** Main Header Style3 Area Css ***/  
+.header-top-left-style2 {
+    float: none !important;
+}    
+.header-top-left-style2 ul {
+    text-align: center;
+}    
+.header-top-left-style2 ul li {
+    display: inline-block;
+    float: none;
+    padding-right: 0;
+    margin-right: 0;
+    margin: 0 10px;
+} 
+.header-top-left-style2 ul li:before {
+    display: none;
+} 
+.header-top-right-style2 {
+    float: none !important;
+    text-align: center;
+} 
+.header-top-right-style2 .login-register-box {
+    max-width: 140px;
+    margin: 0 auto;
+}    
+    
+.header-upper-left-style3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    float: none !important;
+    z-index: 999;
+}    
+.header-upper-left-style3 .logo {
+    padding: 22px 0;
+}    
+.header-upper-right-style3 {
+    float: none !important;
+}    
+.menu-right-content-style3 {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    float: none;
+    z-index: 999;
+}    
+.menu-right-content-style3 .outer-search-box-style1 {
+    padding: 30px 0;
+    margin: 0 0px;
+    margin-right: 15px;
+}  
+.menu-right-content-style3 .outer-search-box-style1 .search-box.now-visible {
+    right: -75px;
+}    
+.menu-right-content-style3 .buy-ticket-button {
+    padding: 20px 0;
+    display: none;
+}    
+.menu-right-content-style3 .buy-ticket-button a {
+    padding: 0 30px;
+}    
+        
+/*** About Style2 Area Css ***/ 
+.visit-plan-box {
+    -webkit-box-shadow: 0px -4px 8px 2px #F2F2F2; 
+    box-shadow: 0px -4px 8px 2px #F2F2F2;
+}       
+.about-style1-content.style2 .pattern-bg {
+    left: -220px;
+}    
+.about-style1-content.style2 {
+    padding-top: 120px;
+    padding-left: 0;
+    padding-bottom: 60px;
+    padding-right: 0;
+} 
+.about-style2-image-box {
+    margin-top: 0px;
+}      
+.about-style2-image-box img {
+    max-width: 100%;
+    float: none;
+}    
+.about-style2-image-box .text-box {
+    top: 217px;
+    left: 30px;
+}      
+.get-directions {
+    left: 30px;
+    bottom: 100px;
+    padding-left: 0px;
+}  
+.get-directions:before {
+    display: none;
+}    
+    
+/*** Exhibitions Style2 Area Css ***/ 
+.exhibitions-style2-area {
+    margin-top: 20px;
+}
+.exhibitions-style2-area .layer-outer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0px;
+    right: 0;
+    max-width: 600px;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+}
+.exhibitions-style2-area .view-all-button {
+    left: 20px;
+    top: auto;
+    bottom: 30px;
+}    
+.single-exhibition-box-style2 {
+    max-width: 300px;
+    margin: 0 auto;
+}    
+.single-exhibition-box-style2 .img-holder .overlay-content {
+    position: static;
+    bottom: 0;
+    right: 0;
+    max-width: 300px;
+    width: 100%;
+    padding: 30px 30px 30px;
+}   
+.single-exhibition-box-style2 .img-holder .overlay-content h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    margin: 0 0 18px;
+}  
+.single-exhibition-box-style2 .img-holder .overlay-content p {
+    margin: 0 0 4px;
+}    
+.exhibitions-carousel.owl-carousel.owl-dot-style1 .owl-dots {
+    position: relative;
+    left: auto;
+    bottom: 40px;
+    right: auto;
+    text-align: center;
+}
+    
+    
+/*** Events Style3 Area Css ***/ 
+.events-style3-area .top .sec-title {
+    padding-bottom: 0px;
+    float: none !important;
+}  
+.events-style3-area .top .see-all-events-button {
+    margin-top: 26px;
+    padding-bottom: 54px;
+    float: none !important;
+}    
+.single-event-box-style3 .title-holder {
+    margin-right: 0px;
+    padding: 0px 0 0;
+    margin-top: 40px;
+}    
+.single-event-box-style3 .date-holder {
+    width: 170px;
+    height: 75px;
+    margin-bottom: 30px;
+}  
+        
+/*** Testimonial Area Css ***/          
+.testimonial-carousel-style2 {
+    padding: 120px 0px 160px;
+    padding-right: 0px;
+}   
+.testimonial-carousel-style2:before {
+    top: 0;
+    left: -5000px;
+    bottom: 0;
+    right: -5000px;
+}   
+.single-testimonial-style2 .top {
+    padding-left: 0;
+    min-height: 180px;
+} 
+.single-testimonial-style2 .top .img-box {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    z-index: 1;
+}
+.single-testimonial-style2 .top .img-box:before {
+    display: none;
+}    
+.single-testimonial-style2 .title-box {
+    padding-top: 22px;
+    padding-left: 0px;
+}    
+.single-testimonial-style2 .text {
+    padding-top: 43px;
+}     
+.testimonial-carousel-style2.owl-carousel.owl-dot-style1 .owl-dots {
+    position: relative;
+    top: auto;
+    left: 0;
+    bottom: -40px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}    
+.testimonial-carousel-style2.owl-carousel.owl-dot-style1 .owl-dots .owl-dot {
+    margin: 0px 10px;
+}    
+    
+/*** Latest Blog Area Css ***/        
+.latest-blog-style3-area .top .sec-title {
+    padding-bottom: 0px;
+    float: none !important;
+}    
+.latest-blog-style3-area .top .view-more-button {
+    margin-top: 32px;
+    margin-bottom: 60px;
+    float: none !important;
+}    
+    
+/*** Subscribe Area Style3 Css ***/
+.welcome-content {
+    padding-top: 0px;
+}      
+.welcome-content .sec-title {
+    padding-bottom: 2px;
+}       
+.welcome-content ul {
+    margin-top: 40px;
+}    
+.welcome-image-box {
+    margin-top: 50px;
+}       
+.welcome-image-box img {
+    max-width: 100%;
+    float: none;
+}              
+    
+/*** Footer Style3 Area Css ***/    
+.single-footer-widget-style2.marbtm50 {
+    margin-bottom: 50px;    
+}    
+        
+    
+    
+    
+    
+/*** Main Header Style4 Css ***/  
+.header-upper-left-style4 {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    float: none !important;
+    z-index: 999;
+}   
+.header-upper-left-style4 .logo {
+    padding: 22px 0;
+}    
+.header-upper-right-style4 {
+    float: none !important;
+}    
+.menu-right-content-style4 {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    float: none;
+    z-index: 999;
+}    
+.menu-right-content-style4 .outer-search-box-style1 {
+    padding: 30px 0;
+    margin: 0 15px;
+    margin-left: 0;
+} 
+.menu-right-content-style4 .outer-search-box-style1 .search-box.now-visible {
+    right: -95px;
+}    
+.menu-right-content-style4 .buy-ticket-button {
+    padding: 20px 0;
+    display: none;
+}    
+.header-upper-style4 .outer-box {
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #ffffff;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}    
+        
+/*** contact Us Area Css ***/       
+.contact-us-area .left-content {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+}    
+.contact-us-area .right-content {
+    position: relative;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 120px;
+    padding: 23px 0px 20px;
+    padding-right: 0;
+}
+.contact-us-area .right-content:before {
+    top: -35px;
+    left: -2000px;
+    bottom: -30px;
+    right: -20000px;
+}  
+.contact-us-area .right-content ul {
+    text-align: center;
+}    
+.contact-us-area .right-content ul li {
+    margin-right: 0;
+    display: block;
+    float: none;
+    margin-bottom: 26px;
+} 
+.contact-us-area .right-content ul li:last-child{
+    margin-bottom: 0;
+}        
+
+/*** About Style3 Area Css ***/     
+.about-style1-content.style3.right-content {
+    margin-top: 33px;
+    margin-right: 0px;
+}    
+    
+/*** Fact Testimonial Area Css ***/ 
+.fact-counter-box .fact-counter-bg {
+    left: 0px;
+    right: 0px;
+}    
+.fact-counter-box ul:before {
+    display: none;
+}    
+.fact-counter-box ul li {
+    width: 100%;
+    text-align: center;
+} 
+.fact-counter-box ul li:nth-child(3) {
+    margin-bottom: 100px;
+}    
+.testimonial-box-holder {
+    padding-top: 120px;
+}    
+.testimonial-box-holder .testimonial-box-holder-bg {
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}    
+.testimonial-box-holder .sec-title {
+    padding-left: 30px;
+}        
+.testimonial-box-holder .testimonial-carousel-style2 {
+    padding-left: 30px;
+    padding-bottom: 120px;
+    padding-right: 30px;
+} 
+    
+.testimonial-box-holder.style2 .testimonial-box-holder-bg {
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}    
+        
+    
+/*** Subscribe Area style4 Css ***/     
+.subscribe-area.style4 .welcome-content.style2 .sec-title {
+    padding-bottom: 52px;
+}    
+.subscribe-area.style4 .welcome-content.style2 .subscribe-box {
+    margin: 0 auto 21px;
+}    
+        
+/*** Art Style4 Area Css ***/ 
+.art-style4-area .sec-title {
+    padding-bottom: 130px;
+}    
+.art-carousel-style2.owl-nav-style-one.owl-theme .owl-stage-outer {
+    padding-bottom: 20px;
+    margin-right: 0px;
+}    
+.art-carousel-style2.owl-nav-style-one.owl-theme .owl-nav {
+    top: -100px;
+    bottom: auto;
+    right: auto;
+    margin: 0;
+    left: 0;
+}   
+    
+/*** Latest Blog Style4 Area Css ***/  
+.latest-blog-style4-area .sec-title {
+    padding-bottom: 122px;
+}    
+.blog-carousel-style3 {
+    padding: 0 0px;
+}    
+.blog-carousel-style3.owl-nav-style-one.owl-theme .owl-nav .owl-prev {
+    top: -100px;
+    left: 0px;
+}    
+.blog-carousel-style3.owl-nav-style-one.owl-theme .owl-nav .owl-next {
+    top: -100px;
+    right: 0px;
+}    
+    
+/*** Footer Style4 Area Css ***/         
+.single-footer-widget-style3.marbtm60{
+    margin-bottom: 60px;
+}   
+.single-footer-widget-style3 .our-contact-info-box ul li {
+    padding-left: 70px;
+} 
+.footer-bottom-style4 {
+    padding: 31px 0 35px;
+}    
+.footer-bottom-style4 .footer-bottom-content {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}        
+.footer-bottom-style4 .copyright-text {
+    margin-bottom: 17px;
+}  
+    
+/*** Art Area Art page Css ***/     
+.art-area.art-page .sec-title {
+    padding-bottom: 25px;
+    float: none !important;
+    text-align: center;
+}   
+.art-area.art-page .filters {
+    margin-top: 0px;
+    margin-bottom: 0;
+    float: none !important;
+    padding-bottom: 60px;
+}    
+    
+/*** Breadcrumb Area Css ***/        
+.breadcrumb-area .title h1 {
+    font-size: 50px;
+}    
+.art-area.art-page .filters li {
+    margin: 0;
+    margin-right: 0;
+    margin: 0 11px;
+}
+    
+/*** Buy Tickets Area Css ***/  
+.visit-day-select .chicklet-list {
+    position: relative;
+    display: block;
+    width: 300px;
+}    
+.visit-day-select .chicklet-list li {
+    border-left: 0px solid #2d353d;
+}    
+.select-tickets-box ul li .left p {
+    font-size: 12px;
+}    
+.select-tickets-box ul li .left h4 {
+    font-size: 16px;
+}    
+.select-tickets-box .input-box span {
+    margin-right: 10px;
+}
+    
+/*** Gallery Area Css ***/ 
+.filters {
+    margin-bottom: 49px;
+}    
+.filters li {
+    margin: 0 14px 14px;
+}    
+    
+/*** Latest Blog Style3 Area Blog Page Css ***/ 
+.latest-blog-style3-area .top .sec-title.pdbtm42{
+    padding-bottom: 42px;
+}     
+.single-blog-post .text-holder {
+    padding: 26px 20px 27px;
+    margin-right: 20px;
+    margin-top: -60px;
+}    
+     
+/*** Blog Single Area Css ***/     
+.blog-single-area .sidebar-wrapper {
+    padding-top: 100px;
+}    
+.blog-single-area .tag-box .tag {
+    float: none !important;
+    text-align: center;
+    margin: 0 0 6px;
+}  
+.blog-single-area .tag-box .tag p span {
+    float: none;
+}    
+.blog-single-area .tag-box .right {
+    float: none !important;
+    overflow: hidden;
+    text-align: center;
+}  
+.blog-single-area .tag-box .right p {
+    float: none;
+    padding-right: 6px;
+}    
+.blog-single-area .tag-box .right .sociallinks-style-two {
+    margin: 0;
+    float: none !important;
+}    
+.blog-single-area .tag-box .right .sociallinks-style-two li {
+    float: none;
+    margin-right: 0;
+    margin: 0 7px;
+}    
+    
+.blog-single-area .inner-comment-box .single-comment-box {
+    padding-left: 0px;
+}    
+.blog-single-area .inner-comment-box .single-comment-box .img-holder {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 23px;
+}    
+.blog-single-area .inner-comment-box .single-comment-box .text-holder {
+    margin-left: 0;
+}    
+.blog-single-area .inner-comment-box .single-comment-box.marleft100 {
+    margin-left: 0px;
+}    
+    
+/*** Google Map Area Css ***/      
+.contactpage-company-info-box {
+    margin-bottom: 70px;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+}
+
+
+
+
+
+
+/***
+@media (min-width: 992px){
+    
+.navbar-collapse.collapse {
+    display: block !important;
+    height: auto;
+    padding-bottom: 0;
+    overflow: visible !important;
+}
+.navbar-toggle {
+    display: none !important;
+} 
+   
+}
+**/
+
+
+
+
+
+
+@media only screen and (max-width: 991px) {
+.main-header .main-menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    float: none;
+}
+    
+    
+.main-menu .navbar-header {
+    position: relative;
+    display: block;
+    float: none;
+    text-align: right;
+    width: 100%;
+    top: 0px;
+    z-index: 12;
+}    
+.main-menu .navbar-header .navbar-toggle {
+    display: inline-block;
+    z-index: 7;
+    float: none;
+    padding: 4px 5px;
+    cursor: pointer;
+    margin: 24px 0;
+    border-radius: 0px;
+    background: #131313;
+}
+.main-menu .navbar-header .navbar-toggle .icon-bar {
+    background: #ffffff;
+    height: 2px;
+    width: 29px;
+    display: block;
+    margin: 7px 5px;
+}
+.main-menu .collapse {
+    max-height: 350px;
+    max-width: none;
+    overflow: auto;
+    float: none;
+    width: 100%;
+    padding: 0px 0px 0px;
+    border: none;
+    margin: 0px;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.main-menu .navbar-collapse {
+    max-height: 350px; 
+}    
+.main-menu .navbar-collapse>.navigation {
+    float: none !important;
+    margin: 0px !important;
+    width: 100% !important;
+    background: #2d353d;
+    border: 0px solid #ffffff;
+    border-top: none;
+}   
+.main-menu .navbar-collapse>.navigation>li {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0px !important;
+    float: none !important;
+}
+.main-menu .navbar-collapse>.navigation>li,
+.main-menu .navbar-collapse>.navigation>li>ul>li,
+.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li {
+    border-top: 1px solid #242a30 !important;
+    opacity: 1 !important;
+    top: 0px !important;
+    padding-top: 0;
+    padding-bottom: 0;
+    left: 0px !important;
+    visibility: visible !important;
+    border-bottom: none;
+}
+.main-menu .navbar-collapse>.navigation>li:first-child {
+    border: none;
+}    
+.main-menu .navbar-collapse>.navigation>li>a,
+.main-menu .navbar-collapse>.navigation>li>ul>li>a,
+.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li>a {
+    padding: 10px 20px 8px !important;
+    line-height: 24px;
+    color: #ffffff;
+    text-align: left;
+    min-height: 0px;
+    border-bottom: 0px solid;
+}    
+.main-menu .navbar-collapse>.navigation>li:hover>a,
+.main-menu .navbar-collapse>.navigation>li>ul>li:hover>a,
+.main-menu .navbar-collapse>.navigation>li>ul>li>ul>li:hover>a,
+.main-menu .navbar-collapse>.navigation>li.current>a,
+.main-menu .navbar-collapse>.navigation>li.current-menu-item>a {
+    color: #778394 !important;
+}    
+.main-menu .navbar-collapse>.navigation>li>ul,
+.main-menu .navbar-collapse>.navigation>li>ul>li>ul {
+    position: relative;
+    border: none;
+    float: none;
+    visibility: visible;
+    opacity: 1;
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    width: 100%;
+    background: #2d353d;
+    -webkit-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    transition: none !important;
+    -webkit-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    -moz-transition: none !important;
+    box-shadow: none !important;
+} 
+.main-menu .navbar-collapse>.navigation>li>ul:before,
+.main-menu .navbar-collapse>.navigation>li>ul>li>ul:before{   
+    display: none;
+}      
+.main-menu .navbar-collapse>.navigation li.dropdown .dropdown-btn {
+    display: block;
+}    
+    
+    
+.fixed-header .sticky-header {
+    display: none!important;
+}      
+.main-menu .navigation> li.dropdown> a:before {
+    display: none;
+}    
+.main-menu .navigation> li> ul> li> a:before {
+    display: none;
+}  
+.main-menu .navigation>li>ul>li>ul>li a:before {
+    display: none;
+}    
+  
+    
+
+.main-menu.style2 .navigation>li>a:after {
+    display: none;
+}    
+.main-menu.style4 .navigation>li> a:after {
+    display: none;
+}    
+    
+ 
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 1040px) and (max-width: 1250px) { 
+
+/** Main Slider Css **/    
+.main-slider.style1 .slide-content .big-title{
+	font-size: 50px;
+}
+    
+    
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 1039px){ 
+    
+.main-header {
+    background: #2d353d;
+} 
+.main-header-style2 {
+    background: #160f0a;    
+} 
+.header-upper-midlle-style2 {
+    background: transparent;
+}    
+.main-slider.style1 {
+    margin: 0;
+} 
+.main-slider.style2 {
+    margin-top: 0px;
+}
+.contact-info-holder {
+    padding: 70px 70px 70px;
+    margin-top: 0px;
+}  
+.main-header-style3 {
+    background: #ffffff;
+} 
+.main-header-style4 {
+    background: #2d353d;
+} 
+.main-slider.style4 {
+    margin-top: 0;
+}    
+  
+    
+/** Main Slider Css **/
+.main-slider.style1 .slide-content .big-title{
+	font-size: 40px;
+    line-height: 1.3em;
+}  
+/** Main Slider Style2 Css **/
+.main-slider.style2 .slide-content .big-title {
+    font-size: 40px;
+}
+
+    
+    
+    
+    
+    
+    
+
+    
+}
+
+
+
+@media only screen and (max-width: 777px){
+    
+/** Main Slider Css **/    
+.main-slider.style1 .slide-content .big-title{
+	font-size: 40px;
+    line-height: 1.3em;
+}        
+/** Main Slider Style2 Css **/
+.main-slider.style2 .slide-content .big-title {
+    font-size: 40px;
+}
+/** Main Slider Style3 Css **/
+.main-slider.style3 .slide-content .big-title{
+	font-size: 50px;
+}  
+/** Main Slider Style4 Css **/    
+.main-slider.style4 .slide-content .big-title{
+	font-size: 40px;
+	line-height: 1.4em;
+}    
+.main-slider.style4 .slide-content .btn-box a {
+    padding: 15px 39px 15px;
+}
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+@media only screen and (max-width: 599px) {
+
+/** Main Slider Css **/    
+.main-slider.style1 .slide-content .big-title{
+	font-size: 30px;
+    line-height: 1.3em;
+}        
+/** Main Slider Style2 Css **/
+.main-slider.style2 .slide-content .big-title {
+    font-size: 30px;
+}
+.main-slider.style2 .slide-content .btn-box a {
+    padding: 16px 35px 16px;
+}
+/** Main Slider Style3 Css **/
+.main-slider.style3 .slide-content .big-title{
+	font-size: 40px;
+}      
+.main-slider.style3 .slide-content .btn-box a {
+    padding: 14px 30px 14px;
+}
+/** Main Slider Style4 Css **/    
+.main-slider.style4 .slide-content .big-title{
+	font-size: 30px;
+	line-height: 1.4em;
+}      
+.main-slider .mouse-btn-down {
+    bottom: 20px;
+}
+ 
+
+.museum-opening-hours-box {
+    bottom: 10px;
+}
+.museum-opening-hours-box .inner .title h2 {
+    font-size: 20px;
+    margin: 0 0 3px;
+}    
+.museum-opening-hours-box .inner .icon {
+    top: 12px;
+}   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+}
+
+
+
+@media only screen and (max-width: 479px) { 
+
+.main-slider.style1 .slide-content .big-title{
+	font-size: 30px;
+}  
+/** Main Slider Style2 Css **/
+.main-slider.style2 .slide-content .title {
+    font-size: 20px;
+}    
+.main-slider.style2 .slide-content .big-title {
+    font-size: 25px;
+}
+.main-slider.style2 .slide-content .btn-box a {
+    padding: 16px 25px 16px;
+}
+.main-slider.style2 .tp-bullets{
+    display: none !important;
+}    
+/** Main Slider Style3 Css **/
+.main-slider.style3 .slide-content .title {
+    font-size: 20px;
+}    
+.main-slider.style3 .slide-content .big-title{
+	font-size: 30px;
+}      
+.main-slider.style3 .slide-content .btn-box a {
+    padding: 14px 30px 14px;
+}
+/** Main Slider Style4 Css **/    
+.main-slider.style4 .slide-content .big-title{
+	font-size: 30px;
+	line-height: 1.4em;
+}      
+.main-slider .mouse-btn-down {
+    bottom: 20px;
+}
+         
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+}
+
+
+@media only screen and (max-width: 400px) {   
+
+/** Main Slider Css **/ 
+.main-slider.style1 .slide-content .big-title{
+	font-size: 20px;
+}  
+/** Main Slider Style4 Css **/    
+.main-slider.style4 .slide-content .big-title{
+	font-size: 20px;
+	line-height: 1.4em;
+}  
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+@media only screen and (min-width: 1300px) and (max-width: 1680px) { 
+    
+.main-menu.style2 .navigation>li>a {
+    padding-right: 26px;
+    margin-right: 25px;
+} 
+.header-upper-right-style2 a.nav-toggler {
+    margin: 39px 19px;
+}    
+    
+    
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1299px) { 
+.header-upper-midlle-style2 .nav-outer {
+    padding-left: 20px;
+}    
+.main-menu.style2 .navigation>li>a {
+    padding-right: 0px;
+    margin-right: 20px;
+} 
+.main-menu.style2 .navigation>li>a:after {
+    display: none;
+} 
+.header-upper-right-style2 a.nav-toggler {
+    margin: 39px 10px;
+}    
+    
+    
+    
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) { 
+.order-sm-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-sm-1 {
+    -ms-flex-order: 1;
+    order: 1;
+}    
+
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 1199px) { 
+.order-box-2 {
+    -ms-flex-order: 2;
+    order: 2;
+}
+.order-box-1 {
+    -ms-flex-order: 1;
+    order: 1;
+} 
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
