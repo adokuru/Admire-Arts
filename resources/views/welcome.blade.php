@@ -79,11 +79,13 @@
                             <div class="header-top-left float-left">
                                 <ul>
                                     <li>
-                                        <a href="" class="text-white">Login</a>
+                                        <a href="/login" class="text-white"
+                                            >Login</a
+                                        >
                                     </li>
                                     <li>
                                         <a href="#" class="text-whhite"
-                                            >Sign up</a
+                                            >Sign up</appear-class=""
                                         >
                                     </li>
                                 </ul>
