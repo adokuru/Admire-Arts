@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Art;
+use App\Models\ArtCategory;
+use App\Models\Artist;
 use Illuminate\Http\Request;
 
 class ArtController extends Controller
@@ -15,6 +17,7 @@ class ArtController extends Controller
     public function index()
     {
         //
+        return view('art.index');
     }
 
     /**
@@ -25,6 +28,9 @@ class ArtController extends Controller
     public function create()
     {
         //
+        $art_categories = ArtCategory::all()->pluck('name', 'id');
+        $artists = Artist::all()->pluck('name', 'id');
+        return view('art.create', compact('art_categories', 'artists'));
     }
 
     /**
@@ -35,7 +41,16 @@ class ArtController extends Controller
      */
     public function store(Request $request)
     {
-        //
+            // cache the file
+            $file = $request->file('art_file_path');
+
+            // generate a new filename. getClientOriginalExtension() for the file extension
+            $filename = 'art-photo-' . time() . '.' . $file->getClientOriginalExtension();
+
+            // save to storage/app/photos as the new $filename
+            $path = $file->storeAs('art', $filename);
+
+            dd($path);
     }
 
     /**

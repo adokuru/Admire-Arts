@@ -17,6 +17,7 @@ class CreateBlogsTable extends Migration
             $table->id();
             $table->string('title')->nullable();
             $table->string('description');
+            $table->string('slug');
             $table->string('blog_file_path')->nullable();
             $table->timestamps();
         });

@@ -15,12 +15,15 @@ class CreateArtTable extends Migration
     {
         Schema::create('art', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
             $table->unsignedBigInteger('art_category_id');
             $table->foreign('art_category_id')->references('id')->on('art_categories')->onDelete('cascade');
             $table->unsignedBigInteger('artist_id');
             $table->foreign('artist_id')->references('id')->on('artists')->onDelete('cascade');
+            $table->string('short_note')->nullable();
             $table->decimal('amount', 15, 2)->nullable();
             $table->string('description')->nullable();
+            $table->string('slug');
             $table->string('art_file_path')->nullable();
             $table->timestamps();
         });
