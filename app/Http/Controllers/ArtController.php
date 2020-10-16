@@ -17,7 +17,8 @@ class ArtController extends Controller
     public function index()
     {
         //
-        return view('art.index');
+        $arts = Art::all();
+        return view('art.index', compact('arts'));
     }
 
     /**
@@ -25,6 +26,7 @@ class ArtController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
     public function create()
     {
         //
@@ -50,7 +52,19 @@ class ArtController extends Controller
             // save to storage/app/photos as the new $filename
             $path = $file->storeAs('art', $filename);
 
-            dd($path);
+            $post = new Art([
+                'name' => $request->title,
+                'art_category_id' => $request->art_categories,
+                'artist_id' => $request->artist,
+                'short_note' => $request->short_note,
+                'amount' => $request->amount,
+                'description' => $request->description,
+                'art_file_path' => '/storage/'.$path,
+            ]);
+            
+            $post->save();
+
+            return redirect()->route('art.index');
     }
 
     /**
