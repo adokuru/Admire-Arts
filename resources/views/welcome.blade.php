@@ -6,7 +6,7 @@
         <div class="sec-title">
             <p>CURRENT EXHIBITIONS & Display</p>
             <div class="big-title">
-                <h1>What’s On At The Historical</h1>
+                <h1>Post-War Art</h1>
             </div>
         </div>
         <div class="row masonary-layout">
@@ -274,8 +274,8 @@
 <section class="events-area">
     <div class="container">
         <div class="sec-title">
-            <p>DON’T MISS</p>
-            <div class="big-title"><h1>Upcoming Events</h1></div>
+            <p>Featured Categories</p>
+            <div class="big-title"><h1>Impressionist & Modern Art</h1></div>
         </div>
         <div class="row">
             <div class="col-xl-12">
@@ -540,7 +540,7 @@
                     <div class="sec-title">
                         <p>EXPLORE ART</p>
                         <div class="big-title">
-                            <h1>From Our Collection</h1>
+                            <h1>Works by popular artists</h1>
                         </div>
                     </div>
                     <div class="view-more-button">

@@ -84,8 +84,8 @@
                                         >
                                     </li>
                                     <li>
-                                        <a href="#" class="text-whhite"
-                                            >Sign up</appear-class=""
+                                        <a href="/register" class="text-whhite"
+                                            >Sign up</a
                                         >
                                     </li>
                                 </ul>
@@ -230,22 +230,27 @@
                 </div>
             </header>
             <!--End Header Upper-->
-            @include('sections/slider')
-
-            @yield('content')
-
+            @include('sections/slider') @yield('content')
 
             <!--Start footer area-->
-            <footer class="footer-area">
+
+            <footer class="footer-style2-area chnage-bg-style">
+                <div
+                    class="layer-outer-bg"
+                    style="background-image:url(images/parallax-background/footer-style4-bg.jpg);"
+                ></div>
                 <div class="footer">
                     <div class="container">
                         <div class="row">
                             <!--Start single footer widget-->
                             <div
-                                class="col-xl-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp"
+                                class="col-xl-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp animated"
                                 data-wow-delay="100ms"
+                                style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;"
                             >
-                                <div class="single-footer-widget marbtm50">
+                                <div
+                                    class="single-footer-widget clr-white marbtm50"
+                                >
                                     <div class="footer-logo">
                                         <a href="index-2.html"
                                             ><img
@@ -253,17 +258,25 @@
                                                 alt="Footer Logo"
                                         /></a>
                                     </div>
+                                    <div class="text">
+                                        Podcasting operational change management
+                                        inside of workflows to establish a
+                                        framework. Taking seamless.
+                                    </div>
                                 </div>
                             </div>
                             <!--End single footer widget-->
                             <!--Start single footer widget-->
                             <div
-                                class="col-xl-2 col-lg-4 col-md-4 col-sm-12 wow fadeInUp"
+                                class="col-xl-2 col-lg-4 col-md-4 col-sm-12 wow fadeInUp animated"
                                 data-wow-delay="100ms"
+                                style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;"
                             >
-                                <div class="single-footer-widget marbtm50">
+                                <div
+                                    class="single-footer-widget clr-white marbtm50"
+                                >
                                     <div class="title">
-                                        <h3>Extras</h3>
+                                        <h3>Extra :-</h3>
                                     </div>
                                     <ul class="social-links">
                                         <li><a href="#">Twitter</a></li>
@@ -277,12 +290,13 @@
                             <!--End single footer widget-->
                             <!--Start single footer widget-->
                             <div
-                                class="col-xl-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp"
+                                class="col-xl-3 col-lg-4 col-md-4 col-sm-12 wow fadeInUp animated"
                                 data-wow-delay="100ms"
+                                style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;"
                             >
-                                <div class="single-footer-widget">
+                                <div class="single-footer-widget clr-white">
                                     <div class="title">
-                                        <h3>Contacts</h3>
+                                        <h3>Contacts :-</h3>
                                     </div>
                                     <div class="contact-us">
                                         <p>
@@ -300,32 +314,79 @@
                             <!--End single footer widget-->
                             <!--Start single footer widget-->
                             <div
-                                class="col-xl-2 col-lg-8 col-md-8 col-sm-12 wow fadeInUp"
+                                class="col-xl-2 col-lg-8 col-md-8 col-sm-12 wow fadeInUp animated"
                                 data-wow-delay="100ms"
+                                style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;"
                             >
                                 <div
-                                    class="single-footer-widget opening-hours-box pdtop50"
+                                    class="single-footer-widget clr-white opening-hours-box pdtop50"
                                 >
                                     <div class="title">
-                                        <h3>Open Hours</h3>
+                                        <h3>Open Hours :-</h3>
                                     </div>
                                     <div class="opening-hours">
                                         <p>
                                             Daily 9.30 am–6.00 pm<br />
-                                            Thursday & Holidays: Closed
+                                            Thursday &amp; Holidays: Closed
                                         </p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="single-footer-widget clr-white follow-sociallinks-widget-box"
+                                >
+                                    <div class="title">
+                                        <h3>Follow Us :-</h3>
+                                    </div>
+                                    <div class="footer-social-links">
+                                        <ul class="social-links-style1">
+                                            <li>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa fa-facebook"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa fa-twitter"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa fa-envelope"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    ><i
+                                                        class="fa fa-youtube-play"
+                                                        aria-hidden="true"
+                                                    ></i
+                                                ></a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                             <!--End single footer widget-->
                             <!--Start single footer widget-->
                             <div
-                                class="col-xl-2 col-lg-4 col-md-4 col-sm-12 wow fadeInUp"
+                                class="col-xl-2 col-lg-4 col-md-4 col-sm-12 wow fadeInUp animated"
                                 data-wow-delay="100ms"
+                                style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;"
                             >
-                                <div class="single-footer-widget pdtop50">
+                                <div
+                                    class="single-footer-widget clr-white pdtop50"
+                                >
                                     <div class="title">
-                                        <h3>Quick Link</h3>
+                                        <h3>Quick Link :-</h3>
                                     </div>
                                     <ul class="quick-links">
                                         <li><a href="#">Home</a></li>
@@ -340,22 +401,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="footer-bottom">
+                <div class="footer-bottom-style2">
                     <div class="container">
-                        <div class="outer-box">
-                            <div class="footer-bottom-left">
-                                <div class="text">
-                                    <p>
-                                        <a href="#">Privacy Policy</a> / This is
-                                        a sample website
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="footer-bottom-right">
-                                <div class="copyright-text">
-                                    <p>© 2019 / All Rights Reserved</p>
-                                </div>
-                            </div>
+                        <div class="copyright-text text-center">
+                            <p>
+                                © Copyright 2019 Museum Histories. All Rights
+                                Reserved
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -367,43 +419,93 @@
             <span class="icon-angle"></span>
         </button>
 
-        <script src="{{asset('js/jquery.js')}}"></script>
-        <script src="{{asset('js/appear.js')}}"></script>
-        <script src="{{asset('js/bootstrap.bundle.min.js')}}"></script>
-        <script src="{{asset('js/bootstrap-select.min.js')}}"></script>
-        <script src="{{asset('js/isotope.js')}}"></script>
-        <script src="{{asset('js/jquery.bootstrap-touchspin.js')}}"></script>
-        <script src="{{asset('js/jquery.countTo.js')}}"></script>
-        <script src="{{asset('js/jquery.easing.min.js')}}"></script>
-        <script src="{{asset('js/jquery.enllax.min.js')}}"></script>
-        <script src="{{asset('js/jquery.fancybox.js')}}"></script>
-        <script src="{{asset('js/jquery.mixitup.min.js')}}"></script>
-        <script src="{{asset('js/jquery.paroller.min.js')}}"></script>
-        <script src="{{asset('js/owl.js')}}"></script>
-        <script src="{{asset('js/validation.js')}}"></script>
-        <script src="{{asset('js/wow.js')}}"></script>
-        <script src="{{asset('js/aos.js')}}"></script>
+        <script src="{{ asset('js/jquery.js') }}"></script>
+        <script src="{{ asset('js/appear.js') }}"></script>
+        <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset('js/bootstrap-select.min.js') }}"></script>
+        <script src="{{ asset('js/isotope.js') }}"></script>
+        <script src="{{ asset('js/jquery.bootstrap-touchspin.js') }}"></script>
+        <script src="{{ asset('js/jquery.countTo.js') }}"></script>
+        <script src="{{ asset('js/jquery.easing.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.enllax.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.fancybox.js') }}"></script>
+        <script src="{{ asset('js/jquery.mixitup.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.paroller.min.js') }}"></script>
+        <script src="{{ asset('js/owl.js') }}"></script>
+        <script src="{{ asset('js/validation.js') }}"></script>
+        <script src="{{ asset('js/wow.js') }}"></script>
+        <script src="{{ asset('js/aos.js') }}"></script>
 
-        <script src="{{asset('assets/language-switcher/jquery.polyglot.language.switcher.js')}}"></script>
-        <script src="{{asset('assets/timepicker/timePicker.js')}}"></script>
-        <script src="{{asset('assets/html5lightbox/html5lightbox.js')}}"></script>
+        <script src="{{
+                asset(
+                    'assets/language-switcher/jquery.polyglot.language.switcher.js'
+                )
+            }}"></script>
+        <script src="{{ asset('assets/timepicker/timePicker.js') }}"></script>
+        <script src="{{
+                asset('assets/html5lightbox/html5lightbox.js')
+            }}"></script>
         <!-- jQuery ui js -->
-        <script src="{{asset('assets/jquery-ui-1.11.4/jquery-ui.js')}}"></script>
+        <script src="{{
+                asset('assets/jquery-ui-1.11.4/jquery-ui.js')
+            }}"></script>
         <!--Revolution Slider-->
-        <script src="{{asset('plugins/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
-        <script src="{{asset('plugins/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
-        <script src="{{asset('js/main-slider-script.js')}}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/jquery.themepunch.revolution.min.js'
+                )
+            }}"></script>
+        <script src="{{
+                asset('plugins/revolution/js/jquery.themepunch.tools.min.js')
+            }}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/extensions/revolution.extension.actions.min.js'
+                )
+            }}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/extensions/revolution.extension.carousel.min.js'
+                )
+            }}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/extensions/revolution.extension.kenburn.min.js'
+                )
+            }}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js'
+                )
+            }}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/extensions/revolution.extension.migration.min.js'
+                )
+            }}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/extensions/revolution.extension.navigation.min.js'
+                )
+            }}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/extensions/revolution.extension.parallax.min.js'
+                )
+            }}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/extensions/revolution.extension.slideanims.min.js'
+                )
+            }}"></script>
+        <script src="{{
+                asset(
+                    'plugins/revolution/js/extensions/revolution.extension.video.min.js'
+                )
+            }}"></script>
+        <script src="{{ asset('js/main-slider-script.js') }}"></script>
 
         <!-- thm custom script -->
-        <script src="{{asset('js/custom.js')}}"></script>
+        <script src="{{ asset('js/custom.js') }}"></script>
     </body>
 </html>
