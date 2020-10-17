@@ -13,9 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'App\Http\Controllers\HomeController@Home');
+
+Route::get('/our-artists', 'App\Http\Controllers\HomeController@artist');
+
+Route::get('/artworks', 'App\Http\Controllers\HomeController@artwork');
+
+Route::get('/auctions', 'App\Http\Controllers\HomeController@auction');
+
+Route::get('/blog', 'App\Http\Controllers\HomeController@blog');
+
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

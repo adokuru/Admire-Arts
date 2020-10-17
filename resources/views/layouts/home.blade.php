@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="css/custom-animate.css" />
         <link rel="stylesheet" href="css/font-awesome.min.css" />
 
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style.css"/>
         <link rel="stylesheet" href="css/responsive.css" />
         <!-- Favicon -->
         <link
@@ -146,27 +146,27 @@
                                         >
                                             <ul class="navigation clearfix">
                                                 <li>
-                                                    <a href="art.html"
+                                                    <a href="/our-artists"
                                                         >Artist</a
                                                     >
                                                 </li>
                                                 <li>
-                                                    <a href="art.html"
+                                                    <a href="/artworks"
                                                         >Artworks</a
                                                     >
                                                 </li>
                                                 <li>
-                                                    <a href="art.html"
+                                                    <a href="/auctions"
                                                         >Auctions</a
                                                     >
                                                 </li>
                                                 <li>
-                                                    <a href="art.html"
+                                                    <a href="/view-rooms"
                                                         >Viewing Rooms</a
                                                     >
                                                 </li>
                                                 <li>
-                                                    <a href="blog.html"
+                                                    <a href="/blog"
                                                         >Editoria</a
                                                     >
                                                 </li>
@@ -231,7 +231,7 @@
             </header>
             <!--End Header Upper-->
             @include('sections/slider') @yield('content')
-
+            @include('sections/subscribe')
             <!--Start footer area-->
 
             <footer class="footer-style2-area chnage-bg-style">
