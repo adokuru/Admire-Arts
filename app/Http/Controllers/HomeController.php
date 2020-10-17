@@ -33,6 +33,7 @@ class HomeController extends Controller
     public function artist()
     {
         //
+        return view('artists');
 
     }
 
