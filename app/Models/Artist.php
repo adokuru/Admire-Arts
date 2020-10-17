@@ -10,4 +10,9 @@ class Artist extends Model
 {
     use HasFactory;
   
+    public function Art()
+    { 
+        return $this->hasMany(Art::class, 'artist_id', 'id');
+
+    }
 }

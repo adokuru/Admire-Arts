@@ -22,7 +22,7 @@ class CreateArtTable extends Migration
             $table->foreign('artist_id')->references('id')->on('artists')->onDelete('cascade');
             $table->string('short_note')->nullable();
             $table->decimal('amount', 15, 2)->nullable();
-            $table->string('description')->nullable();
+            $table->longText('description')->nullable();
             $table->string('slug');
             $table->string('art_file_path')->nullable();
             $table->timestamps();

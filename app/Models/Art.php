@@ -35,4 +35,10 @@ class Art extends Model
     {
         return $this->belongsTo(ArtCategory::class, 'art_category_id');
     }
+
+    public function artist()
+    {
+        return $this->belongsTo(Artist::class, 'artist_id');
+    }
 }
+

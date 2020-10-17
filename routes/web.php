@@ -23,6 +23,10 @@ Route::get('/auctions', 'App\Http\Controllers\HomeController@auction');
 
 Route::get('/blog', 'App\Http\Controllers\HomeController@blog');
 
+Route::get('/artworks/{Slug}', 'App\Http\Controllers\HomeController@artslug')->name('art.slug');
+
+
+
 
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

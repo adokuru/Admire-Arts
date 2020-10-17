@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Art;
+use App\Models\Artist;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -14,7 +15,8 @@ class HomeController extends Controller
     public function Home()
     {
         //
-        return view('welcome');
+        $arts = Art::orderBy('id', 'desc')->take(6)->get();
+        return view('welcome', compact('arts'));
 
     }
 
@@ -41,6 +43,23 @@ class HomeController extends Controller
     {
         //
 
+    }
+
+    public function artslug($slug)
+    {
+        //
+        $art = Art::where('slug', $slug)->get();
+        
+        dd($art);
+    }
+    
+
+    public function apitest()
+    {
+        //
+       return Artist::all();
+        
+       
     }
 
 }

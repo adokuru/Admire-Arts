@@ -34,6 +34,7 @@
         />
 
         @livewireStyles
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css" rel="stylesheet" />
 
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.0/dist/alpine.js" defer></script>
@@ -59,11 +60,21 @@
 
         @livewireScripts
         <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
         <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
         <script >
             $(document).ready(function() {
                 $('#example').DataTable();
             } );
         </script>
+         <script>
+            $(document).ready(function () {
+              $('#art_categories').select2();
+              $('#artist').select2();
+          });
+      </script>
     </body>
 </html>
