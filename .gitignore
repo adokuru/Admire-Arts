@@ -2,6 +2,7 @@
 /public/hot
 /vendor
 .env
+.htaccess
 .well-known
 .env.backup
 .phpunit.result.cache
