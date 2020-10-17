@@ -57,7 +57,7 @@ class HomeController extends Controller
     public function apitest()
     {
         //
-       return Artist::all();
+       return Artist::orderBy('DisplayName', 'asc')->paginate(10);
         
        
     }

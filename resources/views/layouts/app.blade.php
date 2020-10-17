@@ -70,11 +70,27 @@
                 $('#example').DataTable();
             } );
         </script>
-         <script>
+         {{-- <script>
             $(document).ready(function () {
               $('#art_categories').select2();
-              $('#artist').select2();
+                $("#artist").select2({
+                minimumInputLength: 3,
+                ajax: {
+                    url: "/api/artistes",
+                    processResults: function(data, params) {
+                            console.log(data);
+                            var page = params.page || 1;
+                            return {
+                                results: $.map(data, function (item) { return {id: item.id, text: item.DisplayName}}),
+                                pagination: {
+                                // THE `10` SHOULD BE SAME AS `$resultCount FROM PHP, it is the number of records to fetch from table` 
+                                    more: (current_page * 10) <= data[0].total
+                                }
+                            };
+                        },              
+                    }
+                });
           });
-      </script>
+      </script> --}}
     </body>
 </html>
