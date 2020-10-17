@@ -2,6 +2,7 @@
 /public/hot
 /vendor
 .env
+.well-known
 .env.backup
 .phpunit.result.cache
 Homestead.json
