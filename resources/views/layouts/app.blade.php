@@ -14,6 +14,24 @@
         <link href="https://unpkg.com/tailwindcss@1.0.4/dist/tailwind.min.css" rel="stylesheet">
         <link href="https://cdn.datatables.net/1.10.22/css/jquery.dataTables.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+        <!-- Favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="{{asset('images/favicon/apple-touch-icon.png')}}"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="{{asset('images/favicon/fav-32.png')}}"
+            sizes="32x32"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="{{asset('images/favicon/fav-32.png')}}"
+            sizes="16x16"
+        />
 
         @livewireStyles
 
