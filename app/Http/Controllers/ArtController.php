@@ -31,7 +31,7 @@ class ArtController extends Controller
     {
         //
         $art_categories = ArtCategory::all()->pluck('name', 'id');
-        $artists = Artist::all()->pluck('name', 'id');
+        $artists = Artist::all()->pluck('DisplayName', 'id');
         return view('art.create', compact('art_categories', 'artists'));
     }
 
