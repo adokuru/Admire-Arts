@@ -868,33 +868,5 @@
 </section>
 <!--End latest blog area-->
 
-<!--Start subscribe Area-->
-<section class="subscribe-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-6">
-                <div class="subscribe-title">
-                    <h1>News Letter Now</h1>
-                    <span
-                        >Receive e-mail updates on our exhibitions, events, and
-                        more........</span
-                    >
-                </div>
-            </div>
-            <div class="col-xl-6">
-                <div class="subscribe-box">
-                    <form class="subscribe-form" action="#">
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder="Your Email Address"
-                        />
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--End subscribe Area-->
+
 @endsection
