@@ -109,7 +109,7 @@
                         <div class="outer-box clearfix bg-white">
                             <div class="header-upper-left clearfix float-left">
                                 <div class="logo">
-                                    <a href="index.html"
+                                    <a href="/"
                                         ><img
                                             src="images/resources/Terah1.png"
                                             alt="Awesome Logo"

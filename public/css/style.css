@@ -6374,7 +6374,6 @@ select:focus {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 345px 0 205px;
-
     z-index: 10;
 }
 .breadcrumb-area::before {
