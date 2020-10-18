@@ -17,7 +17,9 @@ class HomeController extends Controller
     {
         //
         $arts = Art::orderBy('id', 'desc')->take(6)->get();
-        return view('welcome', compact('arts'));
+        $feautredart = Art::all()->random(5);
+        $artistart = Art::all()->random(5);
+        return view('welcome', compact('arts', 'feautredart', 'artistart'));
 
     }
 

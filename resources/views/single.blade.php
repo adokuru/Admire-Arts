@@ -35,15 +35,16 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
-          <div class="events-single-image-box" style="width:1170px; height:877px; ">
-            <img src="{{asset($art->art_file_path)}}" alt="Awesome Art" style="width:1170px; height:877px; ">
-            
-        </div>
+          
         
         </div>
       </div>
       <div class="row">
         <div class="col-xl-8">
+          <div class="events-single-image-box" style=" height:600px; ">
+            <img src="{{asset($art->art_file_path)}}" alt="Awesome Art" style=" height:600px; ">
+            
+        </div>
           <div class="events-single-text-box">
             <h2>
                 {{$art->name}}
@@ -70,7 +71,7 @@
             <ul class="events-info">
               <li>
                 <p>Type :</p>
-                <span>{{$art->short_note}}</span>
+                <span>Year Made: {{$art->short_note}}</span>
               </li>
               <li>
                 <p>Price :</p>

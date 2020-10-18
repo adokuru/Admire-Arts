@@ -15,28 +15,28 @@
                     class="event-carousel owl-carousel owl-theme owl-dot-style1"
                 >
                     <!--Start Single event Box-->
+                    @foreach ($feautredart as $fart)
                     <div class="single-event-box">
                         <div class="img-holder">
                             <div class="inner">
-                                <img
-                                    src="images/events/event-v1-1.jpg"
+                                <img style="width: 570px; height:427px" 
+                                    src="{{asset($fart->art_file_path)}}"
                                     alt="Awesome Image"
                                 />
                                 <div class="overlay-style-one bg2"></div>
                             </div>
                             <div class="date-box">
-                                <div class="left">30</div>
+                                <div class="left">$</div>
                                 <div class="right">
-                                    <h6>November</h6>
-                                    <h3>SATURDAY</h3>
+                                    <h3>{{number_format($fart->amount, 2) }}</h3>
                                 </div>
                             </div>
                         </div>
                         <div class="title-holder">
                             <div class="inner">
-                                <span>Central Park</span>
+                                <span>{{$fart->art_category->name}}</span>
                                 <h3>
-                                    <a href="#">Buffalo Bill Museum & Grave</a
+                                    <a href="{{route('art.slug',$fart->slug)}}">{{$fart->name}}</a
                                     ><i
                                         class="fa fa-angle-double-right"
                                         aria-hidden="true"
@@ -45,216 +45,17 @@
                             </div>
                             <div class="bottom">
                                 <div class="text">
-                                    November 30, 2019 - November 28, 2020
+                                    {{$fart->artist->DisplayName}}
                                 </div>
                                 <div class="button">
-                                    <a href="#">Find More</a>
+                                    <a href="{{route('art.slug',$fart->slug)}}">Read More</a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!--End Single event Box-->
-                    <!--Start Single event Box-->
-                    <div class="single-event-box">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img
-                                    src="images/events/event-v1-2.jpg"
-                                    alt="Awesome Image"
-                                />
-                                <div class="overlay-style-one bg2"></div>
-                            </div>
-                            <div class="date-box">
-                                <div class="left">31</div>
-                                <div class="right">
-                                    <h6>December</h6>
-                                    <h3>SATURDAY</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="title-holder">
-                            <div class="inner">
-                                <span>Reduis Maroa</span>
-                                <h3>
-                                    <a href="#">Renaissance to Revolution</a
-                                    ><i
-                                        class="fa fa-angle-double-right"
-                                        aria-hidden="true"
-                                    ></i>
-                                </h3>
-                            </div>
-                            <div class="bottom">
-                                <div class="text">
-                                    November 30, 2019 - November 28, 2020
-                                </div>
-                                <div class="button">
-                                    <a href="#">Find More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single event Box-->
-
-                    <!--Start Single event Box-->
-                    <div class="single-event-box">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img
-                                    src="images/events/event-v1-1.jpg"
-                                    alt="Awesome Image"
-                                />
-                                <div class="overlay-style-one bg2"></div>
-                            </div>
-                            <div class="date-box">
-                                <div class="left">30</div>
-                                <div class="right">
-                                    <h6>November</h6>
-                                    <h3>SATURDAY</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="title-holder">
-                            <div class="inner">
-                                <span>Central Park</span>
-                                <h3>
-                                    <a href="#">Buffalo Bill Museum & Grave</a
-                                    ><i
-                                        class="fa fa-angle-double-right"
-                                        aria-hidden="true"
-                                    ></i>
-                                </h3>
-                            </div>
-                            <div class="bottom">
-                                <div class="text">
-                                    November 30, 2019 - November 28, 2020
-                                </div>
-                                <div class="button">
-                                    <a href="#">Find More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single event Box-->
-                    <!--Start Single event Box-->
-                    <div class="single-event-box">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img
-                                    src="images/events/event-v1-2.jpg"
-                                    alt="Awesome Image"
-                                />
-                                <div class="overlay-style-one bg2"></div>
-                            </div>
-                            <div class="date-box">
-                                <div class="left">31</div>
-                                <div class="right">
-                                    <h6>December</h6>
-                                    <h3>SATURDAY</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="title-holder">
-                            <div class="inner">
-                                <span>Reduis Maroa</span>
-                                <h3>
-                                    <a href="#">Renaissance to Revolution</a
-                                    ><i
-                                        class="fa fa-angle-double-right"
-                                        aria-hidden="true"
-                                    ></i>
-                                </h3>
-                            </div>
-                            <div class="bottom">
-                                <div class="text">
-                                    November 30, 2019 - November 28, 2020
-                                </div>
-                                <div class="button">
-                                    <a href="#">Find More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single event Box-->
-
-                    <!--Start Single event Box-->
-                    <div class="single-event-box">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img
-                                    src="images/events/event-v1-1.jpg"
-                                    alt="Awesome Image"
-                                />
-                                <div class="overlay-style-one bg2"></div>
-                            </div>
-                            <div class="date-box">
-                                <div class="left">30</div>
-                                <div class="right">
-                                    <h6>November</h6>
-                                    <h3>SATURDAY</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="title-holder">
-                            <div class="inner">
-                                <span>Central Park</span>
-                                <h3>
-                                    <a href="#">Buffalo Bill Museum & Grave</a
-                                    ><i
-                                        class="fa fa-angle-double-right"
-                                        aria-hidden="true"
-                                    ></i>
-                                </h3>
-                            </div>
-                            <div class="bottom">
-                                <div class="text">
-                                    November 30, 2019 - November 28, 2020
-                                </div>
-                                <div class="button">
-                                    <a href="#">Find More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single event Box-->
-                    <!--Start Single event Box-->
-                    <div class="single-event-box">
-                        <div class="img-holder">
-                            <div class="inner">
-                                <img
-                                    src="images/events/event-v1-2.jpg"
-                                    alt="Awesome Image"
-                                />
-                                <div class="overlay-style-one bg2"></div>
-                            </div>
-                            <div class="date-box">
-                                <div class="left">31</div>
-                                <div class="right">
-                                    <h6>December</h6>
-                                    <h3>SATURDAY</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="title-holder">
-                            <div class="inner">
-                                <span>Reduis Maroa</span>
-                                <h3>
-                                    <a href="#">Renaissance to Revolution</a
-                                    ><i
-                                        class="fa fa-angle-double-right"
-                                        aria-hidden="true"
-                                    ></i>
-                                </h3>
-                            </div>
-                            <div class="bottom">
-                                <div class="text">
-                                    November 30, 2019 - November 28, 2020
-                                </div>
-                                <div class="button">
-                                    <a href="#">Find More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div> 
+                    @endforeach
+                    
+                   
                     <!--End Single event Box-->
                 </div>
             </div>
@@ -285,268 +86,37 @@
     <div class="container art-container">
         <div class="row masonary-layout">
             <!--Start Single Art Box-->
+            @foreach ($artistart as $arts)
             <div
-                class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-            >
-                <div class="single-art-box">
-                    <div class="img-holder">
-                        <img
-                            src="images/art/art-v1-1.jpg"
-                            alt="Awesome Image"
-                        />
-                        <div class="overlay-content">
-                            <div class="title">
-                                <h3>
-                                    <a href="#"
-                                        >Exhibition of<br />
-                                        Modern Art</a
-                                    >
-                                </h3>
-                            </div>
-                            <div class="readmore-button">
-                                <a href="#">Read More</a>
-                            </div>
+            class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
+            data-wow-delay="00ms"
+            data-wow-duration="1500ms"
+        >
+            <div class="single-art-box">
+                <div class="img-holder" style="height: 350px; width:350px;">
+                    <img
+                        src="{{asset($arts->art_file_path)}}"
+                        alt="Awesome Image"
+                    />
+                    <div class="overlay-content">
+                        <div class="title">
+                            <h3>
+                                <a href="{{route('art.slug',$arts->slug)}}"
+                                    >{{$arts->name}} <br> By {{$arts->artist->DisplayName}}</a
+                                >
+                            </h3>
+                        </div>
+                        <div class="readmore-button">
+                            <a href="{{route('art.slug',$arts->slug)}}">Read More</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+            @endforeach
+            
             <!--End Single Art Box-->
-            <!--Start Single Art Box-->
-            <div
-                class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
-                data-wow-delay="300ms"
-                data-wow-duration="1500ms"
-            >
-                <div class="single-art-box">
-                    <div class="img-holder">
-                        <img
-                            src="images/art/art-v1-2.jpg"
-                            alt="Awesome Image"
-                        />
-                        <div class="overlay-content">
-                            <div class="title">
-                                <h3>
-                                    <a href="#"
-                                        >Exhibition of<br />
-                                        Modern Art</a
-                                    >
-                                </h3>
-                            </div>
-                            <div class="readmore-button">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Art Box-->
-            <!--Start Single Art Box-->
-            <div
-                class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-            >
-                <div class="single-art-box">
-                    <div class="img-holder">
-                        <img
-                            src="images/art/art-v1-3.jpg"
-                            alt="Awesome Image"
-                        />
-                        <div class="overlay-content">
-                            <div class="title">
-                                <h3>
-                                    <a href="#"
-                                        >Exhibition of<br />
-                                        Modern Art</a
-                                    >
-                                </h3>
-                            </div>
-                            <div class="readmore-button">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Art Box-->
-
-            <!--Start Single Art Box-->
-            <div
-                class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-            >
-                <div class="single-art-box">
-                    <div class="img-holder">
-                        <img
-                            src="images/art/art-v1-6.jpg"
-                            alt="Awesome Image"
-                        />
-                        <div class="overlay-content">
-                            <div class="title">
-                                <h3>
-                                    <a href="#"
-                                        >Exhibition of<br />
-                                        Modern Art</a
-                                    >
-                                </h3>
-                            </div>
-                            <div class="readmore-button">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Art Box-->
-            <!--Start Single Art Box-->
-            <div
-                class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-            >
-                <div class="single-art-box">
-                    <div class="img-holder">
-                        <img
-                            src="images/art/art-v1-5.jpg"
-                            alt="Awesome Image"
-                        />
-                        <div class="overlay-content">
-                            <div class="title">
-                                <h3>
-                                    <a href="#"
-                                        >Exhibition of<br />
-                                        Modern Art</a
-                                    >
-                                </h3>
-                            </div>
-                            <div class="readmore-button">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Art Box-->
-            <!--Start Single Art Box-->
-            <div
-                class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-            >
-                <div class="single-art-box">
-                    <div class="img-holder">
-                        <img
-                            src="images/art/art-v1-4.jpg"
-                            alt="Awesome Image"
-                        />
-                        <div class="overlay-content">
-                            <div class="title">
-                                <h3>
-                                    <a href="#"
-                                        >Exhibition of<br />
-                                        Modern Art</a
-                                    >
-                                </h3>
-                            </div>
-                            <div class="readmore-button">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Art Box-->
-
-            <!--Start Single Art Box-->
-            <div
-                class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-            >
-                <div class="single-art-box">
-                    <div class="img-holder">
-                        <img
-                            src="images/art/art-v1-7.jpg"
-                            alt="Awesome Image"
-                        />
-                        <div class="overlay-content">
-                            <div class="title">
-                                <h3>
-                                    <a href="#"
-                                        >Exhibition of<br />
-                                        Modern Art</a
-                                    >
-                                </h3>
-                            </div>
-                            <div class="readmore-button">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Art Box-->
-            <!--Start Single Art Box-->
-            <div
-                class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-            >
-                <div class="single-art-box">
-                    <div class="img-holder">
-                        <img
-                            src="images/art/art-v1-8.jpg"
-                            alt="Awesome Image"
-                        />
-                        <div class="overlay-content">
-                            <div class="title">
-                                <h3>
-                                    <a href="#"
-                                        >Exhibition of<br />
-                                        Modern Art</a
-                                    >
-                                </h3>
-                            </div>
-                            <div class="readmore-button">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Art Box-->
-            <!--Start Single Art Box-->
-            <div
-                class="col-xl-4 col-lg-6 col-md-6 col-sm-12 wow fadeInUp animated"
-                data-wow-delay="00ms"
-                data-wow-duration="1500ms"
-            >
-                <div class="single-art-box">
-                    <div class="img-holder">
-                        <img
-                            src="images/art/art-v1-9.jpg"
-                            alt="Awesome Image"
-                        />
-                        <div class="overlay-content">
-                            <div class="title">
-                                <h3>
-                                    <a href="#"
-                                        >Exhibition of<br />
-                                        Modern Art</a
-                                    >
-                                </h3>
-                            </div>
-                            <div class="readmore-button">
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Art Box-->
+            
         </div>
     </div>
 </section>

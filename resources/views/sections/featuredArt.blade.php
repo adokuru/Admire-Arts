@@ -4,7 +4,7 @@
         <div class="sec-title">
             <p>CURRENT EXHIBITIONS & Display</p>
             <div class="big-title">
-                <h1>Post-War Art</h1>
+                <h1>New Art</h1>
             </div>
         </div>
         <div class="row masonary-layout">
