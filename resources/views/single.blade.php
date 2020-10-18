@@ -1,5 +1,14 @@
 @extends('layouts/home') @section('title'){{$art->name}}@endsection @section('content')
-
+<style>
+  .swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #000;
+  font-size: 12px;
+  border: 1px solid #000;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+</style>
 <section class="breadcrumb-area" style="background-image: url({{asset('images/breadcrumb/breadcrumb-3.jpg')}})">
     <div class="container">
       <div class="row">
@@ -161,7 +170,7 @@
           </button>
         </div>
         <div class="modal-body">
-            <form method="POST" action="">
+        <form method="POST" action="{{route('Artcontact')}}">
                 @csrf
                 <div class="input-box form-group"> 
                     <input  type="text" disabled name="form_subject" value="To: Admire Art" placeholder="Subject">
@@ -193,4 +202,14 @@
       </div>
     </div>
   </div>
+  <script>
+@if (session('alert'))
+        swal({
+        title: '{{ session('alert') }}',
+        icon: 'success',
+        timer: 3000,
+      });
+      @endif
+  </script>
+
 @endsection

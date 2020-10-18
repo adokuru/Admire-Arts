@@ -39,6 +39,8 @@
 
         <link rel="stylesheet" href="{{asset('css/style.css')}}"/>
         <link rel="stylesheet" href="{{asset('css/responsive.css')}}" />
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
         <!-- Favicon -->
         <link
             rel="apple-touch-icon"

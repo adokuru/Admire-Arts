@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\Art;
+use App\Models\Artcontact;
 use App\Models\Artist;
 use Illuminate\Http\Request;
 
@@ -64,5 +65,26 @@ class HomeController extends Controller
         
        
     }
+
+    public function artcontact(Request $request)
+    {
+        //
+        //dd($request);
+
+        $art = Art::where('ID', $request->form_art)->first();
+        $contact = new Artcontact([
+            'art_id' => $request->form_art,
+            'contact_name' => $request->form_name,
+            'contact_email' => $request->form_email,
+            'note' => $request->form_message,
+        ]);
+        
+        $contact->save();
+        return redirect()->route('art.slug', $art->slug)->with('alert', 'Message Sent!');
+        
+       
+    }
+
+    
 
 }

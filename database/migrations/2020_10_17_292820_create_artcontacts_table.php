@@ -19,8 +19,7 @@ class CreateArtcontactsTable extends Migration
             $table->foreign('art_id')->references('id')->on('art')->onDelete('cascade');
             $table->string('contact_name');
             $table->string('contact_email');
-            $table->string('note')->nullable();
-            $table->string('price');
+            $table->string('note');
             $table->timestamps();
         });
     }
