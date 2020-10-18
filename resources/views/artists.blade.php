@@ -29,7 +29,7 @@
       
         <div class="col-md-4">
             <div class="card p-3">
-                <div class="d-flex flex-row mb-3"><img src="https://ui-avatars.com/api/?bold=true&name={{$artist->DisplayName}}" width="70">
+                <div class="d-flex flex-row mb-3"><img src="https://ui-avatars.com/api/?bold=true&background=000000&color=fff&name={{$artist->DisplayName}}" width="70">
                     <div class="d-flex flex-column ml-2"><span>Name: {{$artist->DisplayName}} </span><span class="text-black-50">Gender: {{$artist->Gender}} <br> Nationality: {{$artist->Nationality}} </span></div>
                 </div>
                 <h6>{{$artist->ArtistBio}}</h6>
