@@ -32,7 +32,6 @@
     <div class="layer-outer"></div>
     <div class="container">
         <div class="sec-title text-center">
-            <p>PART OF THE MUSEUM</p>
             <div class="big-title"><h1>Our Partners & Sponsers</h1></div>
         </div>
         <div class="row">
@@ -40,27 +39,27 @@
                 <div class="partner-box">
                     <!--Start Single Partner Logo Box-->
                     <div class="single-partner-logo-box">
-                        <a href="#"><img src="images/brand/1.png" alt="Awesome Image"></a>
+                        <a href="#"><img src="{{asset('images/brand/1.png')}}" alt="Awesome Image"></a>
                     </div>
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
                     <div class="single-partner-logo-box">
-                        <a href="#"><img src="images/brand/2.png" alt="Awesome Image"></a>
+                        <a href="#"><img src="{{asset('images/brand/2.png')}}" alt="Awesome Image"></a>
                     </div>
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
                     <div class="single-partner-logo-box">
-                        <a href="#"><img src="images/brand/3.png" alt="Awesome Image"></a>
+                        <a href="#"><img src="{{asset('images/brand/3.png')}}" alt="Awesome Image"></a>
                     </div>
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
                     <div class="single-partner-logo-box">
-                        <a href="#"><img src="images/brand/4.png" alt="Awesome Image"></a>
+                        <a href="#"><img src="{{asset('images/brand/4.png')}}" alt="Awesome Image"></a>
                     </div>
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
                     <div class="single-partner-logo-box">
-                        <a href="#"><img src="images/brand/5.png" alt="Awesome Image"></a>
+                        <a href="#"><img src="{{asset('images/brand/5.png')}}" alt="Awesome Image"></a>
                     </div>
                     <!--End Single Partner Logo Box-->
                 </div>

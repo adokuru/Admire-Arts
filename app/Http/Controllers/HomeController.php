@@ -35,7 +35,8 @@ class HomeController extends Controller
     public function artist()
     {
         //
-        return view('artists');
+        $artists= Artist::orderBy('DisplayName', 'asc')->paginate(12);
+        return view('artists', compact('artists'));
 
     }
 
@@ -48,7 +49,9 @@ class HomeController extends Controller
     public function artslug($slug)
     {
         //
-        $art = Art::where('slug', $slug)->get();
+        $art = Art::where('slug', $slug)->first();
+
+       
         
         return view('single', compact('art'));
     }

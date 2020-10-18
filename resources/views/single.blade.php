@@ -1,17 +1,17 @@
-@extends('layouts/home') @section('title', 'Single Post') @section('content')
+@extends('layouts/home') @section('title'){{$art->name}}@endsection @section('content')
 
-<section class="breadcrumb-area" style="background-image: url(images/breadcrumb/breadcrumb-3.jpg)">
+<section class="breadcrumb-area" style="background-image: url({{asset('images/breadcrumb/breadcrumb-3.jpg')}})">
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
           <div class="inner-content clearfix">
             <div class="title">
-              <h1>Event Detail</h1>
+              <h1>Art Detail</h1>
             </div>
             <div class="breadcrumb-menu">
               <ul class="clearfix">
-                <li><a href="index-2.html">Home</a></li>
-                <li class="active">Event Detail</li>
+                <li><a href="/">Home</a></li>
+                <li class="active">{{$art->name}}</li>
               </ul>
             </div>
           </div>
@@ -26,40 +26,33 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
-          <div class="events-single-image-box">
-            <img src="images/events/event_single_img_1.jpg" alt="Awesome Image">
-          </div>
+          <div class="events-single-image-box" style="width:1170px; height:877px; ">
+            <img src="{{asset($art->art_file_path)}}" alt="Awesome Art" style="width:1170px; height:877px; ">
+            
+        </div>
+        
         </div>
       </div>
       <div class="row">
         <div class="col-xl-8">
           <div class="events-single-text-box">
             <h2>
-              Opening Reception: 'Alexander Calder. From the<br>
-              Stony River'
+                {{$art->name}}
+                <div class="zoom-button">
+                    <a
+                        class="lightbox-image"
+                        data-fancybox="gallery"
+                        href="{{asset($art->art_file_path)}}"
+                    >View
+                        <i
+                            class="fa fa-search-plus"
+                            aria-hidden="true"
+                        ></i>
+                    </a>
+                </div>
             </h2>
             <p>
-              Cras dapibus ullamcorper dictum. Vivamus nec erat placerat
-              felis scelerisque porttitor in ac turpis. In nec imperdiet
-              turpis. Suspendisse quis orci ut orci pulvinar eleifend. Nulla
-              eu mattis ipsum. Integer eget sagittis nulla. Praesent
-              consectetur lacus et maximus eleifend. Integer non lacus dui.
-              Mauris tortor diam, laoreet quis commodo vitae, sodales vel
-              augue. Sed rutrum, libero non pretium tristique, arcu mi
-              sollicitudin ex, quis venenatis orci tellus vel dolor. Donec
-              gravida, dolor ut auctor facilisis, enim dolor pellentesque
-              lectus, nec vehicula nibh risus ac leo.
-            </p>
-            <p>
-              Mauris volutpat aliquam tellus nec rhoncus. Aliquam et nibh
-              pulvinar, sodales nibh et, pretium urna. Vivamus quam augue,
-              maximus in consequat imperdiet, iaculis non nibh. Aliquam erat
-              volutpat. Curabitur venenatis massa sed lacus tristique, non
-              auctor nisl sodales. Sed ultricies lacus ut libero faucibus
-              fringilla. Ut nisi tellus, posuere vel mattis nec, convallis a
-              metus. Nullam elementum molestie felis nec lobortis. Cras at
-              justo eu elit semper tempor sed quis orci. In risus magna,
-              malesuada vel elementum ut, finibus et nunc.
+                {{$art->description}}
             </p>
           </div>
         </div>
@@ -68,61 +61,49 @@
             <ul class="events-info">
               <li>
                 <p>Type :</p>
-                <span>Gallery Talk</span>
+                <span>{{$art->short_note}}</span>
               </li>
               <li>
-                <p>Time :</p>
-                <span>April 1, 2019 - 12:00 AM - 12:00 AM</span>
+                <p>Price :</p>
+                <span>${{number_format($art->amount, 2, ',', '.') }}</span>
               </li>
               <li>
-                <p>Venue :</p>
-                <span>32 Quincy Street, Cambridge, MA</span>
+                <p>Category :</p>
+                <span>{{$art->art_category->name}}</span>
               </li>
               <li>
-                <p>Duration :</p>
-                <span>120 Minutes (approximately)</span>
+                
+                <button type="button" class="btn-one" data-toggle="modal" data-target="#exampleModalCenter">
+                    Buy Now
+                  </button>
               </li>
             </ul>
             <div class="social-links">
-              <p>Shear :</p>
+              <p>Share on Socials :</p>
               <ul class="sociallinks-style-two">
                 <li>
-                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/sharer/sharer.php?u={{Request::url()}}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="http://www.twitter.com/share?url={{Request::url()}}"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                </li>
+                    <a href="mailto:info@admireart.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-xl-12">
-          <div class="events-single-map-box">
-            <div class="map-outer">
-              <!--Map Canvas-->
-              <div class="map-canvas" data-zoom="12" data-lat="-37.817085" data-lng="144.955631" data-type="roadmap" data-hue="#ffc400" data-title="Envato" data-icon-path="images/resources/map-marker.png" data-content="Melbourne VIC 3000, Australia<br><a href='mailto:info@youremail.com'>info@youremail.com</a>"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <br><br><br><br>
       <div class="row">
         <!-- Single Events Detais Box-->
         <div class="col-xl-4">
           <div class="single-events-detais-box">
             <h3>Details</h3>
             <ul>
-              <li><span>START:</span>November 30</li>
-              <li><span>END:</span>November 28, 2020</li>
-              <li><span>COST:</span>$35</li>
-              <li><span>EVENT CATEGORY:</span>Art</li>
+              <li><span>COST:</span>${{number_format($art->amount, 2, ',', '.') }}</li>
+              <li><span>EVENT CATEGORY:</span>{{$art->art_category->name}}</li>
             </ul>
           </div>
         </div>
@@ -132,14 +113,15 @@
           <div class="single-events-detais-box">
             <h3>Venue</h3>
             <ul>
-              <li><span>VENUE NAME:</span>Central Park</li>
+              <li><span>VENUE NAME:</span>Admire Art</li>
               <li>
-                <span>ADDRESS:</span>Brooklyn, NY 10036<br>
-                New York, United States<br>
-                + Google Map
+                <span>ADDRESS:</span>A- 3420 Veteran Dr. #201, Pekin,<br />
+                Illinois, US 61554<br>
               </li>
               <li>
-                <span>PHONE:</span><a href="tel:1(000)1112233">+ 1 (000) 111 2233</a>
+                <span>PHONE:</span><a href="tel:1309-650-1352"
+                >+1 (309) 650-1352</a
+            >
               </li>
             </ul>
           </div>
@@ -148,37 +130,67 @@
         <!-- Single Events Detais Box-->
         <div class="col-xl-4">
           <div class="single-events-detais-box">
-            <h3>Organizer</h3>
+            <h3>Artist</h3>
             <ul>
-              <li><span>ORGANIZER NAME:</span>Nick Sims</li>
+              <li><span>Artist NAME:</span>{{$art->artist->DisplayName}}</li>
               <li>
-                <span>PHONE:</span><a href="tel:1(123)2345678">+1 123 2345 678</a>
+                <span>ORGANIZER NAME:</span>Admire Art</li>
+              <li>
+                <span>EMAIL:</span><a href="mailto:info@admireart.com">info@admireart.com</a>
               </li>
               <li>
-                <span>EMAIL:</span><a href="mailto:info@templatepath.com">sims@example.com</a>
-              </li>
-              <li>
-                <span>WEBSITE:</span><a href="https://www.example.com/">example.com</a>
+                <span>WEBSITE:</span><a href="https://www.admireart.com/">admireart.com</a>
               </li>
             </ul>
           </div>
         </div>
         <!-- End Events Detais Box-->
       </div>
-
-      <div class="row">
-        <div class="col-xl-12">
-          <div class="project-single-prev-next-button wow slideInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: slideInUp;">
-            <div class="button">
-              <a class="prev" href="#"><i class="fa fa-angle-double-left" aria-hidden="true"></i>Prev Event</a>
-              <a class="middle" href="#">
-                <img src="images/icon/prev-next-button-icon.png" alt="Button Icon">
-              </a>
-              <a class="next" href="#">Next Event<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+       <br>
     </div>
   </section>
+
+
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Send message to gallery</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form method="POST" action="">
+                @csrf
+                <div class="input-box form-group"> 
+                    <input  type="text" disabled name="form_subject" value="To: Admire Art" placeholder="Subject">
+                </div>
+                <div class="scontact-artwork-details">
+                    <img src="{{asset($art->art_file_path)}}" style="width: 100px">
+                    <p>{{$art->name}}</p><p><em>{{$art->artist->DisplayName}}</em></p></div>
+                    <div class="input-box form-group"> 
+                        <input class="form-control"  type="hidden" name="form_art" value="{{$art->id}}" placeholder="Full Name" required>
+                    </div>
+                <div class="input-box form-group">
+                    <label for="message-text" class="col-form-label">Message:</label>   
+                    <textarea class="form-control" rows="4"  id="message-text" name="form_message" placeholder="Your Message..." required="" aria-required="true">Hi, I’m interested in purchasing this work. Could you please provide more information about the piece?
+                    </textarea>
+                </div>
+                <div class="input-box form-group"> 
+                    <input class="form-control"  type="text" name="form_name" value="" placeholder="Full Name" required>
+                </div>
+                <div class="input-box form-group"> 
+                    <input class="form-control"  type="email" name="form_email" value="" placeholder="Email" required>
+                </div>
+              
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn-two" data-dismiss="modal">Close</button>
+          <button type="submit" class="btn-one">Send</button>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
 @endsection

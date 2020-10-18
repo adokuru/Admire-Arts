@@ -8,12 +8,12 @@
             <div class="col-xl-12">
                 <div class="inner-content clearfix">
                     <div class="title">
-                       <h1>Exhibitions</h1>
+                       <h1>Artworks</h1>
                     </div>
                     <div class="breadcrumb-menu">
                         <ul class="clearfix">
-                            <li><a href="index-2.html">Home</a></li>
-                            <li class="active">Exhibitions</li>
+                            <li><a href="/">Home</a></li>
+                            <li class="active">Artworks</li>
                         </ul>    
                     </div>
                 </div>

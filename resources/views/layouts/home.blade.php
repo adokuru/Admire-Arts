@@ -31,30 +31,30 @@
         <!-- For IE -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-        <link rel="stylesheet" href="css/aos.css" />
-        <link rel="stylesheet" href="css/imp.css" />
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="css/custom-animate.css" />
-        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="{{asset('css/aos.css')}}" />
+        <link rel="stylesheet" href="{{asset('css/imp.css')}}" />
+        <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}" />
+        <link rel="stylesheet" href="{{asset('css/custom-animate.css')}}" />
+        <link rel="stylesheet" href="{{asset('css/font-awesome.min.css')}}" />
 
-        <link rel="stylesheet" href="css/style.css"/>
-        <link rel="stylesheet" href="css/responsive.css" />
+        <link rel="stylesheet" href="{{asset('css/style.css')}}"/>
+        <link rel="stylesheet" href="{{asset('css/responsive.css')}}" />
         <!-- Favicon -->
         <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="images/favicon/apple-touch-icon.png"
+            href="{{asset('images/favicon/apple-touch-icon.png')}}"
         />
         <link
             rel="icon"
             type="image/png"
-            href="images/favicon/fav-32.png"
+            href="{{asset('images/favicon/fav-32.png')}}"
             sizes="32x32"
         />
         <link
             rel="icon"
             type="image/png"
-            href="images/favicon/fav-32.png"
+            href="{{asset('images/favicon/fav-32.png')}}"
             sizes="16x16"
         />
 
@@ -111,7 +111,7 @@
                                 <div class="logo">
                                     <a href="/"
                                         ><img
-                                            src="images/resources/Terah1.png"
+                                            src="{{asset('images/resources/Terah1.png')}}"
                                             alt="Awesome Logo"
                                             title=""
                                     /></a>
@@ -258,7 +258,7 @@
                                     <div class="footer-logo">
                                         <a href="index-2.html"
                                             ><img
-                                                src="images/resources/Terah1.png"
+                                                src="{{asset('images/resources/Terah1.png')}}"
                                                 alt="Footer Logo"
                                         /></a>
                                     </div>
@@ -281,11 +281,11 @@
                                         <h3>Extra :-</h3>
                                     </div>
                                     <ul class="social-links">
-                                        <li><a href="#">Twitter</a></li>
+                                        <li><a href="http://www.twitter.com/share?url={{Request::url()}}">Twitter</a></li>
                                         <li><a href="#">YouTube</a></li>
                                         <li><a href="#">Instagram</a></li>
                                         <li><a href="#">Snapchat</a></li>
-                                        <li><a href="#">Facebook</a></li>
+                                        <li><a href="https://www.facebook.com/sharer/sharer.php?u={{Request::url()}}">Facebook</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -307,7 +307,7 @@
                                         </p>
                                         <div class="phone-num">
                                             <a href="tel:1309-650-1352"
-                                                >1 (309) 650-1352</a
+                                                >+1 (309) 650-1352</a
                                             >
                                         </div>
                                     </div>
@@ -342,7 +342,7 @@
                                     <div class="footer-social-links">
                                         <ul class="social-links-style1">
                                             <li>
-                                                <a href="#"
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u={{Request::url()}}"
                                                     ><i
                                                         class="fa fa-facebook"
                                                         aria-hidden="true"
@@ -350,7 +350,7 @@
                                                 ></a>
                                             </li>
                                             <li>
-                                                <a href="#"
+                                                <a href="http://www.twitter.com/share?url={{Request::url()}}"
                                                     ><i
                                                         class="fa fa-twitter"
                                                         aria-hidden="true"
@@ -358,17 +358,9 @@
                                                 ></a>
                                             </li>
                                             <li>
-                                                <a href="#"
+                                                <a href="mailto:info@admireart.com"
                                                     ><i
                                                         class="fa fa-envelope"
-                                                        aria-hidden="true"
-                                                    ></i
-                                                ></a>
-                                            </li>
-                                            <li>
-                                                <a href="#"
-                                                    ><i
-                                                        class="fa fa-youtube-play"
                                                         aria-hidden="true"
                                                     ></i
                                                 ></a>
@@ -391,10 +383,10 @@
                                         <h3>Quick Link :-</h3>
                                     </div>
                                     <ul class="quick-links">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">History</a></li>
-                                        <li><a href="#">Gallery</a></li>
-                                        <li><a href="#">Events</a></li>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/artworks">Artworks</a></li>
+                                        <li><a href="#">Artist</a></li>
+                                        <li><a href="#">Blog</a></li>
                                         <li><a href="#">Contact Us </a></li>
                                     </ul>
                                 </div>
