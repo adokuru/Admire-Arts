@@ -230,7 +230,11 @@
                 </div>
             </header>
             <!--End Header Upper-->
-            @include('sections/slider') @yield('content')
+            
+            @if (Request::path() == '/')
+            @include('sections/slider')
+            @endif
+            @yield('content')
             @include('sections/subscribe')
             <!--Start footer area-->
 
@@ -259,9 +263,7 @@
                                         /></a>
                                     </div>
                                     <div class="text">
-                                        Podcasting operational change management
-                                        inside of workflows to establish a
-                                        framework. Taking seamless.
+                                        Admire Arts is a world’s leading galleries, museum collections, foundations, artist estates, art fairs, and benefit auctions, all in one place. 
                                     </div>
                                 </div>
                             </div>
@@ -300,12 +302,12 @@
                                     </div>
                                     <div class="contact-us">
                                         <p>
-                                            2270 S Real Camino Lake<br />
-                                            California, US 90967
+                                            A- 3420 Veteran Dr. #201, Pekin,<br />
+                                            Illinois, US 61554
                                         </p>
                                         <div class="phone-num">
-                                            <a href="tel:1800-123-4659"
-                                                >1 (623) 456-9400</a
+                                            <a href="tel:1309-650-1352"
+                                                >1 (309) 650-1352</a
                                             >
                                         </div>
                                     </div>
@@ -327,7 +329,7 @@
                                     <div class="opening-hours">
                                         <p>
                                             Daily 9.30 am–6.00 pm<br />
-                                            Thursday &amp; Holidays: Closed
+                                            Sundays &amp; Holidays: Closed
                                         </p>
                                     </div>
                                 </div>
@@ -405,7 +407,7 @@
                     <div class="container">
                         <div class="copyright-text text-center">
                             <p>
-                                © Copyright 2019 Museum Histories. All Rights
+                                © Copyright 2020 Admire Arts. All Rights
                                 Reserved
                             </p>
                         </div>

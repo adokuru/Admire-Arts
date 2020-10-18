@@ -50,7 +50,7 @@ class HomeController extends Controller
         //
         $art = Art::where('slug', $slug)->get();
         
-        dd($art);
+        return view('single', compact('art'));
     }
     
 
