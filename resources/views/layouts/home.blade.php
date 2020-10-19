@@ -85,11 +85,6 @@
                                             >Login</a
                                         >
                                     </li>
-                                    <li>
-                                        <a href="/register" class="text-whhite"
-                                            >Sign up</a
-                                        >
-                                    </li>
                                 </ul>
                             </div>
                             <!--Top Right-->
