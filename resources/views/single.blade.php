@@ -75,7 +75,7 @@
               </li>
               <li>
                 <p>Price :</p>
-                <span>${{number_format($art->amount, 2, ',', '.') }}</span>
+                <span>${{number_format($art->amount, 2) }}</span>
               </li>
               <li>
                 <p>Category :</p>
@@ -112,7 +112,7 @@
           <div class="single-events-detais-box">
             <h3>Details</h3>
             <ul>
-              <li><span>COST:</span>${{number_format($art->amount, 2, ',', '.') }}</li>
+              <li><span>COST:</span>${{number_format($art->amount, 2) }}</li>
               <li><span>EVENT CATEGORY:</span>{{$art->art_category->name}}</li>
             </ul>
           </div>
