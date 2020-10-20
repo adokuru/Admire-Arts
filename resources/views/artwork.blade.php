@@ -28,39 +28,6 @@
 <section class="exhibitions-area exhibitions-page">
     <div class="container">
         <div class="row masonary-layout">
-            <!--Start single exhibition Box-->
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                <div class="single-exhibition-box style4">
-                    <div class="img-holder">
-                        <img src="images/resources/exhibition-1.jpg" alt="Awesome Image">
-                        <div class="overlay-style-one bg1">
-                            <div class="zoom-button">
-                                <a class="lightbox-image" data-fancybox="gallery" href="images/resources/exhibition-1.jpg">
-                                    <i class="fa fa-search-plus" aria-hidden="true"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="text-holder text-center">
-                        <span>Exhibition</span>
-                        <h2><a href="#">The Museum is Located in St- Germain Castle</a></h2>
-                        <p>From 6 Sept 2017 until 7 Jan 2018</p>
-                        <div class="bottom">
-                            <div class="review-box">
-                                <ul>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                    <li><i class="fa fa-star"></i></li>
-                                </ul>
-                            </div>
-                            <div class="value">$ 60.00</div>
-                        </div>
-                    </div>   
-                </div>    
-            </div>
-            <!--End single exhibition Box-->
             @foreach ($feautredart as $art)
                <!--Start single exhibition Box-->
             <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
