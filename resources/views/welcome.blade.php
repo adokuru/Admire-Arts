@@ -288,7 +288,7 @@
                             want to this to you subcribe us now<br />
                             and more detial
                         </p>
-                        <a href="#">More View</a>
+                        <a href="/Editorial">More View</a>
                     </div>
                 </div>
             </div>
@@ -314,7 +314,7 @@
                                 <span>January 12, 2019</span>
                             </div>
                             <h3 class="blog-title">
-                                <a href="blog-single.html"
+                                <a href="#"
                                     >Looking Forward: The Phasrasth and
                                     Kenyard</a
                                 >
@@ -325,7 +325,7 @@
                                 more than five once and
                             </div>
                             <div class="button-box">
-                                <a href="blog-single.html">Read More</a>
+                                <a href="#">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -348,7 +348,7 @@
                                 <span>January 12, 2019</span>
                             </div>
                             <h3 class="blog-title">
-                                <a href="blog-single.html"
+                                <a href="#"
                                     >Scenes from Stepan Hawkin’s World</a
                                 >
                             </h3>
@@ -358,7 +358,7 @@
                                 revealed as confinementIn other
                             </div>
                             <div class="button-box">
-                                <a href="blog-single.html">Read More</a>
+                                <a href="#">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -382,7 +382,7 @@
                                 <span>January 12, 2019</span>
                             </div>
                             <h3 class="blog-title">
-                                <a href="blog-single.html"
+                                <a href="#"
                                     >Looking Forward: The Phasrasth and
                                     Kenyard</a
                                 >
@@ -393,7 +393,7 @@
                                 more than five once and
                             </div>
                             <div class="button-box">
-                                <a href="blog-single.html">Read More</a>
+                                <a href="#">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -416,7 +416,7 @@
                                 <span>January 12, 2019</span>
                             </div>
                             <h3 class="blog-title">
-                                <a href="blog-single.html"
+                                <a href="#"
                                     >Scenes from Stepan Hawkin’s World</a
                                 >
                             </h3>
@@ -426,7 +426,7 @@
                                 revealed as confinementIn other
                             </div>
                             <div class="button-box">
-                                <a href="blog-single.html">Read More</a>
+                                <a href="#">Read More</a>
                             </div>
                         </div>
                     </div>

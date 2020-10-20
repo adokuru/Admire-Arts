@@ -163,8 +163,8 @@
                                                     >
                                                 </li>
                                                 <li>
-                                                    <a href="/blog"
-                                                        >Editoria</a
+                                                    <a href="/Editorial"
+                                                        >Editorial</a
                                                     >
                                                 </li>
 

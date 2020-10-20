@@ -33,7 +33,8 @@ class HomeController extends Controller
     public function auction()
     {
         //
-        return view('auctions');
+        $collection = Art::all()->random()->paginate(12);
+        return view('auctions', compact('collection', 'type'));
     }
 
     public function artist()

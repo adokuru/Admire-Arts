@@ -23,7 +23,7 @@ Route::get('/auctions', 'App\Http\Controllers\HomeController@auction');
 
 Route::POST('/artworks', 'App\Http\Controllers\HomeController@artcontact')->name('Artcontact');
 
-Route::get('/blog', 'App\Http\Controllers\HomeController@blog');
+Route::get('/Editorial', 'App\Http\Controllers\HomeController@blog');
 
 Route::get('/artworks/{Slug}', 'App\Http\Controllers\HomeController@artslug')->name('art.slug');
 
