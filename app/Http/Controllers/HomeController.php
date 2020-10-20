@@ -18,7 +18,7 @@ class HomeController extends Controller
         //
         $arts = Art::orderBy('id', 'desc')->take(6)->get();
         $feautredart = Art::all()->random(5);
-        $artistart = Art::all()->random(5);
+        $artistart = Art::all()->random(6);
         return view('welcome', compact('arts', 'feautredart', 'artistart'));
 
     }
@@ -26,7 +26,8 @@ class HomeController extends Controller
     public function artwork()
     {
         //
-        return view('artwork');
+        $feautredart = Art::all()->random()->paginate(12);
+        return view('artwork', compact('feautredart'));
     }
 
     public function auction()

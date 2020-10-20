@@ -35,7 +35,7 @@
                     data-rotate="0"
                     data-saveperformance="off"
                     data-slotamount="default"
-                    data-thumb="images/slides/v1-1.jpg"
+                    data-thumb="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FmmrsdN_qU9mov4vF-1M7lw%2Funtouched-jpg.jpg&width=2000&quality=80"
                     data-title="Slide Title"
                     data-transition="fade"
                 >
@@ -47,7 +47,7 @@
                         data-bgposition="center center"
                         data-bgrepeat="no-repeat"
                         data-no-retina=""
-                        src="images/slides/v1-1.jpg"
+                        src="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FmmrsdN_qU9mov4vF-1M7lw%2Funtouched-jpg.jpg&width=2000&quality=80"
                     />
 
                     <div
@@ -72,7 +72,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="text">
-                                Opening on Saturday, 3 February 2019
+                                Exclusive To Admire Arts
                             </div>
                         </div>
                     </div>
@@ -97,8 +97,8 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="big-title">
-                                An Intimate Painting of<br />
-                                Modern Life
+                                Curated collections of works<br />
+                                ready for purchase
                             </div>
                         </div>
                     </div>
@@ -123,7 +123,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="btn-box">
-                                <a href="#">View</a>
+                                <a href="/artworks">View</a>
                             </div>
                         </div>
                     </div>
@@ -153,7 +153,7 @@
                     data-rotate="0"
                     data-saveperformance="off"
                     data-slotamount="default"
-                    data-thumb="images/slides/v1-2.jpg"
+                    data-thumb="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FVKCmXrL4iY9elWxMWMtB_Q%2Funtouched-jpg.jpg&width=2000&quality=80"
                     data-title="Slide Title"
                     data-transition="fade"
                 >
@@ -165,7 +165,7 @@
                         data-bgposition="center center"
                         data-bgrepeat="no-repeat"
                         data-no-retina=""
-                        src="images/slides/v1-2.jpg"
+                        src="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FVKCmXrL4iY9elWxMWMtB_Q%2Funtouched-jpg.jpg&width=2000&quality=80"
                     />
 
                     <div
@@ -190,7 +190,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="text">
-                                Opening on Saturday, 3 February 2019
+                                Collect works by artists
                             </div>
                         </div>
                     </div>
@@ -214,9 +214,13 @@
                         style="z-index: 7; white-space: nowrap"
                     >
                         <div class="slide-content middle-slide">
-                            <div class="big-title">
-                                An Intimate Painting of<br />
-                                Modern Life
+                            
+                            <div class="big-title" style="
+                                    font-size: 40px;
+                                    margin-bottom: 10px;
+                                ">
+                                Including Katherine Bernhardt, Dawoud Bey<br>
+                                and more to support ICI.
                             </div>
                         </div>
                     </div>
@@ -241,7 +245,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="btn-box">
-                                <a href="#">View</a>
+                                <a href="/artworks">View</a>
                             </div>
                         </div>
                     </div>
@@ -271,7 +275,7 @@
                     data-rotate="0"
                     data-saveperformance="off"
                     data-slotamount="default"
-                    data-thumb="images/slides/v1-3.jpg"
+                    data-thumb="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&amp;src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2F8BAXJdgDLDOLqdGvhKSw0Q%2Funtouched-jpg.jpg&amp;width=2000&amp;quality=100"
                     data-title="Slide Title"
                     data-transition="fade"
                 >
@@ -283,7 +287,7 @@
                         data-bgposition="center center"
                         data-bgrepeat="no-repeat"
                         data-no-retina=""
-                        src="images/slides/v1-3.jpg"
+                        src="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&amp;src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2F8BAXJdgDLDOLqdGvhKSw0Q%2Funtouched-jpg.jpg&amp;width=2000&amp;quality=100"
                     />
 
                     <div
@@ -308,7 +312,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="text">
-                                Opening on Saturday, 3 February 2019
+                                Get competitive offers from the world&rsquo;s top auction houses and galleries
                             </div>
                         </div>
                     </div>
@@ -333,8 +337,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="big-title">
-                                An Intimate Painting of<br />
-                                Modern Life
+                                Learn about and collect art from leading galleries, fairs, and museums
                             </div>
                         </div>
                     </div>
@@ -359,7 +362,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="btn-box">
-                                <a href="#">View</a>
+                                <a href="/artworks">View</a>
                             </div>
                         </div>
                     </div>
