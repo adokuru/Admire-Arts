@@ -146,10 +146,10 @@
               <li>
                 <span>ORGANIZER NAME:</span>Admire Arts</li>
               <li>
-                <span>EMAIL:</span><a href="mailto:info@admireart.com">info@admireart.com</a>
+                <span>EMAIL:</span><a href="mailto:info@admirearts.net">info@admireart.net</a>
               </li>
               <li>
-                <span>WEBSITE:</span><a href="https://www.admireart.com/">admireart.com</a>
+                <span>WEBSITE:</span><a href="https://www.admirearts.net/">admireart.net</a>
               </li>
             </ul>
           </div>
