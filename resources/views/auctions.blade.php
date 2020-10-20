@@ -49,7 +49,7 @@
                             </div>
                             <div class="meta-box">
                                 <ul>
-                                    <li><a href="{{route('art.slug',$art->slug)}}"><i class="fa fa-heart-o" aria-hidden="true"></i>Bid Now</a></li>
+                                    <li><a href="{{route('art.slug',$art->slug)}}"><i class="fa fa-heart-o" aria-hidden="true"></i>  Bid Now</a></li>
                                     
                                 </ul>
                             </div>    

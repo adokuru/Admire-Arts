@@ -197,7 +197,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn-two" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn-one">Send</button>
+          <button style="width: 100%" type="submit" class="btn-one">Send</button>
         </div>
     </form>
       </div>
