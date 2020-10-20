@@ -215,12 +215,8 @@
                     >
                         <div class="slide-content middle-slide">
                             
-                            <div class="big-title" style="
-                                    font-size: 40px;
-                                    margin-bottom: 10px;
-                                ">
-                                Including Katherine Bernhardt, Dawoud Bey<br>
-                                and more to support ICI.
+                            <div class="big-title">
+                                Including Katherine Bernhardt and more.
                             </div>
                         </div>
                     </div>

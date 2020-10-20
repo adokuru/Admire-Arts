@@ -34,7 +34,14 @@ class HomeController extends Controller
     {
         //
         $collection = Art::all()->random()->paginate(12);
-        return view('auctions', compact('collection', 'type'));
+        return view('auctions', compact('collection'));
+    }
+
+    public function viewrooms()
+    {
+        //
+        $collection = Art::all()->random()->paginate(12);
+        return view('viewRoom', compact('collection'));
     }
 
     public function artist()

@@ -19,6 +19,8 @@ Route::get('/our-artists', 'App\Http\Controllers\HomeController@artist');
 
 Route::get('/artworks', 'App\Http\Controllers\HomeController@artwork');
 
+Route::get('/view-rooms', 'App\Http\Controllers\HomeController@viewrooms');
+
 Route::get('/auctions', 'App\Http\Controllers\HomeController@auction');
 
 Route::POST('/artworks', 'App\Http\Controllers\HomeController@artcontact')->name('Artcontact');

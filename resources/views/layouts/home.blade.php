@@ -198,13 +198,13 @@
                                                 <li>
                                                     <form
                                                         method="post"
-                                                        action=""
+                                                        action="#"
                                                     >
                                                         <div class="form-group">
                                                             <input
                                                                 type="search"
                                                                 name="search"
-                                                                placeholder="Search Here"
+                                                                placeholder="Search for Arts"
                                                                 required
                                                             />
                                                             <button
