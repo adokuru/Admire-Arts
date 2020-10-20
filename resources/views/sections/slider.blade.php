@@ -362,7 +362,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="btn-box">
-                                <a href="/artworks">View</a>
+                                <a href="/our-artists">View</a>
                             </div>
                         </div>
                     </div>
