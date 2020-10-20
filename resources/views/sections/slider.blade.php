@@ -337,7 +337,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="big-title">
-                                Learn about and collect art from leading galleries, fairs, and museums
+                                Learn about and collect art from leading galleries and museums
                             </div>
                         </div>
                     </div>
