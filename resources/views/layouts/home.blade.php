@@ -355,7 +355,7 @@
                                                 ></a>
                                             </li>
                                             <li>
-                                                <a href="mailto:info@admireart.com"
+                                                <a href="mailto:info@admirearts.net"
                                                     ><i
                                                         class="fa fa-envelope"
                                                         aria-hidden="true"

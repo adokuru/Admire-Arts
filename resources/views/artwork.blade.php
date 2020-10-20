@@ -48,7 +48,7 @@
                         <p>Year Made: {{$art->short_note}}</p>
                         <div class="bottom">
                             <div class="review-box">
-                                @if ( $art->amount < 40000)
+                                @if ( $art->amount < 100000)
                                 <ul>
                                     <li><i class="fa fa-star"></i></li>
                                     <li><i class="fa fa-star"></i></li>

@@ -77,7 +77,7 @@
                         </div>
                     </div>
                     <div class="view-more-button">
-                        <a class="btn-one" href="#">View More</a>
+                        <a class="btn-one" href="/artworks">View More</a>
                     </div>
                 </div>
             </div>
