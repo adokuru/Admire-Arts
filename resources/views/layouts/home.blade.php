@@ -102,7 +102,7 @@
 
                 <!--Start Header upper -->
                 <div class="header-upper">
-                    <div class="container clearfix">
+                    <div class="container clearfix" style="padding: 0">
                         <div class="outer-box clearfix bg-white">
                             <div class="header-upper-left clearfix float-left">
                                 <div class="logo">
