@@ -58,7 +58,7 @@
             </div>
         </div>
         
-        {!! $feautredart->links() !!}
+        {!! $collection->links() !!}
     </div>
 </section>
 <!--End Gallery Area-->

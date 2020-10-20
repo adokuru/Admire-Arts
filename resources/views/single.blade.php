@@ -123,7 +123,7 @@
           <div class="single-events-detais-box">
             <h3>Venue</h3>
             <ul>
-              <li><span>VENUE NAME:</span>Admire Art</li>
+              <li><span>VENUE NAME:</span>Admire Arts</li>
               <li>
                 <span>ADDRESS:</span>A- 3420 Veteran Dr. #201, Pekin,<br />
                 Illinois, US 61554<br>
@@ -144,7 +144,7 @@
             <ul>
               <li><span>Artist NAME:</span>{{$art->artist->DisplayName}}</li>
               <li>
-                <span>ORGANIZER NAME:</span>Admire Art</li>
+                <span>ORGANIZER NAME:</span>Admire Arts</li>
               <li>
                 <span>EMAIL:</span><a href="mailto:info@admireart.com">info@admireart.com</a>
               </li>

@@ -55,6 +55,8 @@ class HomeController extends Controller
     public function blog()
     {
         //
+        $blogs= Artist::orderBy('DisplayName', 'asc')->paginate(12);
+        return view('blog', compact('blogs'));
 
     }
 
