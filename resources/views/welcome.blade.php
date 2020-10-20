@@ -19,7 +19,7 @@
                     <div class="single-event-box">
                         <div class="img-holder">
                             <div class="inner">
-                                <img style="width: 570px; height:427px" 
+                                <img style="width: 370px; height:250px" 
                                     src="{{asset($fart->art_file_path)}}"
                                     alt="Awesome Image"
                                 />
