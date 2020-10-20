@@ -30,33 +30,35 @@
             <!--Filter-->
             
             <div class="row items-container clearfix">
+                
+                @foreach ($collection as $art)
                 <!--Start Single Art Box Style2-->
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 masonry-item all art insta">
                     <div class="single-art-box-style2 marbtm50">
                         <div class="img-holder">
-                            <img src="images/art/art-v2-1.jpg" alt="Awesome Image">
+                            <img src="{{asset($art->art_file_path)}}" alt="Awesome Image">
                             <div class="overlay-content">
                                 <div class="zoom-button">
-                                    <a class="lightbox-image" data-fancybox="gallery" href="images/art/art-v2-1.jpg">
+                                    <a class="lightbox-image" data-fancybox="gallery" href="{{asset($art->art_file_path)}}">
                                         <i class="fa fa-search-plus" aria-hidden="true"></i>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="text-holder">
-                            <h3><a href="#">Mysteries of Prince Shōtoku</a></h3>
-                            <span>Tankha Atska</span>
+                            <h3><a href="{{route('art.slug',$art->slug)}}">{{$art->name}}</a></h3>
+                            <span>{{$art->artist->DisplayName}}</span>
                         </div>    
                     </div>
                 </div>
                 <!--End Single Art Box Style2-->
+                @endforeach
+                
 
             </div>
         </div>
         
-        <div class="view-more-button text-center">
-            <a class="btn-two" href="#">View More</a>
-        </div>
+        {!! $feautredart->links() !!}
     </div>
 </section>
 <!--End Gallery Area-->

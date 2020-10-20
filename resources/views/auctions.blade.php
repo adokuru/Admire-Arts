@@ -62,11 +62,8 @@
             
             
         </div>
-        <div class="row">
-            <div class="col-xl-12">
                 {!! $collection->links() !!}
-            </div>
-        </div>
+           
     </div>
 </section>
 

@@ -113,11 +113,7 @@
            
               
         </div>
-        <div class="row">
-            <div class="col-xl-12">
                 {!! $feautredart->links() !!}
-            </div>
-        </div>
     </div>
 </section>
 <!--End Exhibitions Area-->
