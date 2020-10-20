@@ -177,12 +177,6 @@
                                                                 >Galleries</a
                                                             >
                                                         </li>
-                                                        <li>
-                                                            <a
-                                                                href="/view-rooms"
-                                                                >Museums</a
-                                                            >
-                                                        </li>
                                                     </ul>
                                                 </li>
                                             </ul>
