@@ -173,13 +173,13 @@
                                                     <ul>
                                                         <li>
                                                             <a
-                                                                href="gallery.html"
+                                                                href="/view-rooms"
                                                                 >Galleries</a
                                                             >
                                                         </li>
                                                         <li>
                                                             <a
-                                                                href="exhibitions.html"
+                                                                href="/view-rooms"
                                                                 >Museums</a
                                                             >
                                                         </li>
