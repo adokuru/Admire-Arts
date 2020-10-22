@@ -376,9 +376,9 @@
                                     <ul class="quick-links">
                                         <li><a href="/">Home</a></li>
                                         <li><a href="/artworks">Artworks</a></li>
-                                        <li><a href="#">Artist</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contact Us </a></li>
+                                        <li><a href="/our-artists">Artist</a></li>
+                                        <li><a href="/Editorial">Blog</a></li>
+                                        <li><a href="/contact">Contact Us </a></li>
                                     </ul>
                                 </div>
                             </div>
