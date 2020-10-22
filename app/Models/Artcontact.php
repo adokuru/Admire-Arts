@@ -15,4 +15,11 @@ class Artcontact extends Model
         'contact_email',
         'note'
     ];
+
+    public function art()
+    {
+        return $this->belongsTo(Art::class, 'art_id');
+    }
+
+    
 }

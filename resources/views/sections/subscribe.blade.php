@@ -13,7 +13,8 @@
             </div>
             <div class="col-xl-6">
                 <div class="subscribe-box">
-                    <form class="subscribe-form" action="#">
+                    <form class="subscribe-form" action="{{route('newsletter')}}" method="POST">
+                        @csrf
                         <input
                             type="email"
                             name="email"
@@ -68,3 +69,13 @@
     </div>
 </section> 
 <!--End Partner Area Style3--> 
+
+<script>
+    @if (session('alerts'))
+            swal({
+            title: '{{ session('alerts') }}',
+            icon: 'success',
+            timer: 3000,
+          });
+          @endif
+      </script>

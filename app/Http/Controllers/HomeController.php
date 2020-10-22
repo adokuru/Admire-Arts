@@ -13,6 +13,13 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function dashboard()
+    {
+        # code...
+        $contacts = Artcontact::all();
+        return view('dashboard', compact('contacts'));
+    }
+
     public function Home()
     {
         //
@@ -101,12 +108,47 @@ class HomeController extends Controller
     public function contact()
     {
         //
-       
-       
         
         return view('contact');
     }
 
+    public function newsletter()
+    {
+        //
+       
+        return redirect()->route('home')->with('alerts', 'Thanks for Subscribing');
+        
+    }
+
+    public function contactform(Request $request)
+    {
+        //
+        //dd($request);
+
+        $contact = new Artcontact([
+            'art_id' => 1,
+            'contact_name' => $request->form_name,
+            'contact_email' => $request->form_email,
+            'note' => $request->form_message,
+        ]);
+        
+        $contact->save();
+        return redirect()->route('contact')->with('contact', 'Message Sent!');
+        
+       
+    }
+
+    
+
+    public function contactShow($id)
+    {
+        # code...
+        $contact = Artcontact::where('id', $id)->first();
+
+       
+        
+        return view('contactShow', compact('contact'));
+    }
     
 
 }

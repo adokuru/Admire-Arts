@@ -32,7 +32,7 @@
             <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="contact-form">
                     <div class="inner-box">
-                        <form id="contact-form" name="contact_form" class="default-form2" action="" method="post"> 
+                    <form id="contact-form" name="contact_form" class="default-form2" action="{{route('contactform')}}" method="post"> 
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="input-box">   
@@ -45,18 +45,7 @@
                                     </div>   
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-xl-6">
-                                    <div class="input-box"> 
-                                        <input type="text" name="form_subject" value="" placeholder="Subject">
-                                    </div>      
-                                </div>
-                                <div class="col-xl-6">
-                                    <div class="input-box"> 
-                                        <input type="text" name="form_phone" value="" placeholder="Phone">
-                                    </div>    
-                                </div>    
-                            </div> 
+                            
                             <div class="row">
                                 <div class="col-xl-12">
                                     <div class="input-box">    

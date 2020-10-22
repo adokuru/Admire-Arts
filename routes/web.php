@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'App\Http\Controllers\HomeController@Home');
+Route::get('/', 'App\Http\Controllers\HomeController@Home')->name('home');
 
-Route::get('/contact', 'App\Http\Controllers\HomeController@contact');
+Route::get('/contact', 'App\Http\Controllers\HomeController@contact')->name('contact');
 
 Route::get('/our-artists', 'App\Http\Controllers\HomeController@artist');
 
@@ -27,6 +27,10 @@ Route::get('/auctions', 'App\Http\Controllers\HomeController@auction');
 
 Route::POST('/artworks', 'App\Http\Controllers\HomeController@artcontact')->name('Artcontact');
 
+Route::POST('/artworks', 'App\Http\Controllers\HomeController@contactform')->name('contactform');
+
+Route::POST('/contact', 'App\Http\Controllers\HomeController@newsletter')->name('newsletter');
+
 Route::get('/Editorial', 'App\Http\Controllers\HomeController@blog');
 
 Route::get('/artworks/{Slug}', 'App\Http\Controllers\HomeController@artslug')->name('art.slug');
@@ -35,11 +39,9 @@ Route::get('/artworks/{Slug}', 'App\Http\Controllers\HomeController@artslug')->n
 
 
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
-
 Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
+    Route::get('/dashboard', 'App\Http\Controllers\HomeController@dashboard')->name('dashboard');
+    Route::get('/contact/{id}', 'App\Http\Controllers\HomeController@contactShow')->name('contactShow');
     Route::resource('art', 'App\Http\Controllers\ArtController');
     Route::resource('artist', 'App\Http\Controllers\ArtistController');
 });
