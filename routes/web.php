@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\HomeController@Home');
 
+Route::get('/contact', 'App\Http\Controllers\HomeController@contact');
+
 Route::get('/our-artists', 'App\Http\Controllers\HomeController@artist');
 
 Route::get('/artworks', 'App\Http\Controllers\HomeController@artwork');

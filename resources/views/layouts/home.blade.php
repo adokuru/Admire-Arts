@@ -81,8 +81,8 @@
                             <div class="header-top-left float-left">
                                 <ul>
                                     <li>
-                                        <a href="/login" class="text-white"
-                                            >Login</a
+                                        <a href="/contact" class="text-white"
+                                            >Contact Us</a
                                         >
                                     </li>
                                 </ul>
@@ -293,7 +293,7 @@
                                     </div>
                                     <div class="contact-us">
                                         <p>
-                                            A- 3420 Veteran Dr. #201, Pekin,<br />
+                                            3420 Veteran Dr. #201, Pekin,<br />
                                             Illinois, US 61554
                                         </p>
                                         <div class="phone-num">
@@ -489,6 +489,7 @@
                 )
             }}"></script>
         <script src="{{ asset('js/main-slider-script.js') }}"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
 
         <!-- thm custom script -->
         <script src="{{ asset('js/custom.js') }}"></script>

@@ -35,7 +35,7 @@
                     data-rotate="0"
                     data-saveperformance="off"
                     data-slotamount="default"
-                    data-thumb="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FmmrsdN_qU9mov4vF-1M7lw%2Funtouched-jpg.jpg&width=2000&quality=80"
+                    data-thumb="images/slides/v1-1.jpg"
                     data-title="Slide Title"
                     data-transition="fade"
                 >
@@ -47,7 +47,7 @@
                         data-bgposition="center center"
                         data-bgrepeat="no-repeat"
                         data-no-retina=""
-                        src="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FmmrsdN_qU9mov4vF-1M7lw%2Funtouched-jpg.jpg&width=2000&quality=80"
+                        src="images/slides/v1-1.jpg"
                     />
 
                     <div
@@ -153,7 +153,7 @@
                     data-rotate="0"
                     data-saveperformance="off"
                     data-slotamount="default"
-                    data-thumb="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FVKCmXrL4iY9elWxMWMtB_Q%2Funtouched-jpg.jpg&width=2000&quality=80"
+                    data-thumb="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FmmrsdN_qU9mov4vF-1M7lw%2Funtouched-jpg.jpg&width=2000&quality=100"
                     data-title="Slide Title"
                     data-transition="fade"
                 >
@@ -165,7 +165,7 @@
                         data-bgposition="center center"
                         data-bgrepeat="no-repeat"
                         data-no-retina=""
-                        src="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FVKCmXrL4iY9elWxMWMtB_Q%2Funtouched-jpg.jpg&width=2000&quality=80"
+                        src="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2FmmrsdN_qU9mov4vF-1M7lw%2Funtouched-jpg.jpg&width=2000&quality=100"
                     />
 
                     <div
@@ -271,7 +271,7 @@
                     data-rotate="0"
                     data-saveperformance="off"
                     data-slotamount="default"
-                    data-thumb="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&amp;src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2F8BAXJdgDLDOLqdGvhKSw0Q%2Funtouched-jpg.jpg&amp;width=2000&amp;quality=100"
+                    data-thumb="images/slides/v1-2.jpg"
                     data-title="Slide Title"
                     data-transition="fade"
                 >
@@ -283,7 +283,7 @@
                         data-bgposition="center center"
                         data-bgrepeat="no-repeat"
                         data-no-retina=""
-                        src="https://d7hftxdivxxvm.cloudfront.net/?resize_to=width&amp;src=https%3A%2F%2Fd32dm0rphc51dk.cloudfront.net%2F8BAXJdgDLDOLqdGvhKSw0Q%2Funtouched-jpg.jpg&amp;width=2000&amp;quality=100"
+                        src="images/slides/v1-2.jpg"
                     />
 
                     <div
@@ -333,7 +333,7 @@
                     >
                         <div class="slide-content middle-slide">
                             <div class="big-title">
-                                Learn about and collect art from leading galleries and museums
+                               Collect art from leading galleries and museums
                             </div>
                         </div>
                     </div>

@@ -125,7 +125,7 @@
             <ul>
               <li><span>VENUE NAME:</span>Admire Arts</li>
               <li>
-                <span>ADDRESS:</span>A- 3420 Veteran Dr. #201, Pekin,<br />
+                <span>ADDRESS:</span>3420 Veteran Dr. #201, Pekin,<br />
                 Illinois, US 61554<br>
               </li>
               <li>
@@ -171,7 +171,7 @@
           </button>
         </div>
         <div class="modal-body">
-        <form method="POST" action="{{route('Artcontact')}}">
+        <form method="POST" action="{{route('Artcontact')}}" id="buy-form">
                 @csrf
                 <div class="input-box form-group"> 
                     <input  type="text" disabled name="form_subject" value="To: Admire Art" placeholder="Subject">
@@ -197,7 +197,10 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn-two" data-dismiss="modal">Close</button>
-          <button style="width: 100%" type="submit" class="btn-one">Send</button>
+          <button class="g-recaptcha btn-one" 
+          data-sitekey="6LcqLNoZAAAAAGZmRONuKShUiPohmELb6VbgKNVr" 
+          data-callback='onSubmit' 
+          data-action='submit' style="width: 100%" type="submit" >Send</button>
         </div>
     </form>
       </div>
@@ -211,6 +214,11 @@
         timer: 3000,
       });
       @endif
+  </script>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("buy-form").submit();
+    }
   </script>
 
 @endsection
