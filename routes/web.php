@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Art;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,3 +45,16 @@ Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
     Route::resource('art', 'App\Http\Controllers\ArtController');
     Route::resource('artist', 'App\Http\Controllers\ArtistController');
 });
+
+
+Route::any ( '/search', function (Request $request) {
+    //dd($request->search);
+    
+    $feautredart = Art::where('name','LIKE','%'.$request->search.'%')->paginate(10);
+
+    
+    if (count ( $feautredart ) > 0)
+        return view('artwork', compact('feautredart'));
+    else
+        return view('artwork')->withMessage('No Details found. Try to search again !');
+} );

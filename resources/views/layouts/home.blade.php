@@ -192,8 +192,9 @@
                                                 <li>
                                                     <form
                                                         method="post"
-                                                        action="#"
+                                                        action="/search"
                                                     >
+                                                        @csrf
                                                         <div class="form-group">
                                                             <input
                                                                 type="search"
