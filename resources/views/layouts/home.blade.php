@@ -142,11 +142,7 @@
                                             id="navbarSupportedContent"
                                         >
                                             <ul class="navigation clearfix">
-                                                <li>
-                                                    <a href="/our-artists"
-                                                        >Artist</a
-                                                    >
-                                                </li>
+                                                
                                                 <li>
                                                     <a href="/artworks"
                                                         >Artworks</a
@@ -165,6 +161,11 @@
                                                 <li>
                                                     <a href="/Editorial"
                                                         >Editorial</a
+                                                    >
+                                                </li>
+                                                <li>
+                                                    <a href="/shows"
+                                                        >Shows</a
                                                     >
                                                 </li>
 
