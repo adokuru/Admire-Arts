@@ -11,7 +11,7 @@
                     </div>
                     <div class="breadcrumb-menu">
                         <ul class="clearfix">
-                            <li><a href="index-2.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li class="active">Gallery</li>
                         </ul>    
                     </div>
