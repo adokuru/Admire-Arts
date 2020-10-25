@@ -149,6 +149,14 @@ class HomeController extends Controller
         
         return view('contactShow', compact('contact'));
     }
+
+    public function Museums()
+    {
+        # code...
+       
+        return view('Museums');
+    }
     
 
+    
 }

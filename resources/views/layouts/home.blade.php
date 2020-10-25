@@ -164,8 +164,8 @@
                                                     >
                                                 </li>
                                                 <li>
-                                                    <a href="/shows"
-                                                        >Shows</a
+                                                    <a href="/Museums"
+                                                        >Museums</a
                                                     >
                                                 </li>
 

@@ -33,6 +33,7 @@ Route::get('/view-rooms', 'App\Http\Controllers\HomeController@viewrooms');
 Route::get('/auctions', 'App\Http\Controllers\HomeController@auction');
 Route::get('/our-artists', 'App\Http\Controllers\HomeController@artist');
 Route::get('/Editorial', 'App\Http\Controllers\HomeController@blog');
+Route::get('/Museums', 'App\Http\Controllers\HomeController@Museums');
 Route::get('/artworks/{Slug}', 'App\Http\Controllers\HomeController@artslug')->name('art.slug');
 
 
