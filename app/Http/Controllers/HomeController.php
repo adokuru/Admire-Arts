@@ -33,21 +33,21 @@ class HomeController extends Controller
     public function artwork()
     {
         //
-        $feautredart = Art::all()->random()->paginate(12);
+        $feautredart = Art::orderby('amount', 'desc')->paginate(21);
         return view('artwork', compact('feautredart'));
     }
 
     public function auction()
     {
         //
-        $collection = Art::all()->random()->paginate(12);
+        $collection = Art::inRandomOrder()->paginate(21);
         return view('auctions', compact('collection'));
     }
 
     public function viewrooms()
     {
         //
-        $collection = Art::all()->random()->paginate(12);
+        $collection = Art::inRandomOrder()->paginate(12);
         return view('viewRoom', compact('collection'));
     }
 
