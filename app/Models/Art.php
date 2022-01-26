@@ -22,7 +22,7 @@ class Art extends Model
         'art_file_path',
         'slug'
     ];
-    public function sluggable()
+    public function sluggable():array
     {
         return [
             'slug' => [
