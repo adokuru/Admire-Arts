@@ -2,27 +2,27 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <title>@yield('title') - Admire Arts - Discover &amp; Buy Art</title>
+        <title>@yield('title') - Brilliant Brushes - Discover &amp; Buy Art</title>
         <meta
             property="og:title"
-            content="Admire Arts - Discover &amp; Buy Art"
+            content="Brilliant Brushes - Discover &amp; Buy Art"
         />
         <meta
             name="description"
-            content="Admire Arts is the world’s largest online art marketplace. Browse over 1 million artworks by iconic and emerging artists from 4000+ galleries and top auction houses."
+            content="Brilliant Brushes is the world’s largest online art marketplace. Browse over 1 million artworks by iconic and emerging artists from 4000+ galleries and top auction houses."
         />
         <meta
             property="og:description"
-            content="Admire Arts is the world’s largest online art marketplace. Browse over 1 million artworks by iconic and emerging artists from 4000+ galleries and top auction houses."
+            content="Brilliant Brushes is the world’s largest online art marketplace. Browse over 1 million artworks by iconic and emerging artists from 4000+ galleries and top auction houses."
         />
         <meta
             property="twitter:description"
-            content="Admire Arts is the world’s largest online art marketplace. Browse over 1 million artworks by iconic and emerging artists from 4000+ galleries and top auction houses."
+            content="Brilliant Brushes is the world’s largest online art marketplace. Browse over 1 million artworks by iconic and emerging artists from 4000+ galleries and top auction houses."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="Admire Arts" />
-        <link rel="canonical" href="https://www.AdmireArts.net" />
-        <meta property="og:url" content="https://www.AdmireArts.net" />
+        <meta property="og:site_name" content="Brilliant Brushes" />
+        <link rel="canonical" href="https://www.brilliantbrushes.co.uk" />
+        <meta property="og:url" content="https://www.brilliantbrushes.co.uk" />
         <meta property="og:image" content="images/resources/Terah1.png" />
         <meta property="twitter:card" content="summary" />
         <meta name="fragment" content="!" />
@@ -256,7 +256,7 @@
                                         /></a>
                                     </div>
                                     <div class="text">
-                                        Admire Arts is a world’s leading galleries, museum collections, foundations, artist estates, art fairs, and benefit auctions, all in one place. 
+                                        Brilliant Brushes is a world’s leading galleries, museum collections, foundations, artist estates, art fairs, and benefit auctions, all in one place. 
                                     </div>
                                 </div>
                             </div>
@@ -351,7 +351,7 @@
                                                 ></a>
                                             </li>
                                             <li>
-                                                <a href="mailto:info@admirearts.net"
+                                                <a href="mailto:info@brilliantbrushes.co.uk"
                                                     ><i
                                                         class="fa fa-envelope"
                                                         aria-hidden="true"
@@ -392,7 +392,7 @@
                     <div class="container">
                         <div class="copyright-text text-center">
                             <p>
-                                © Copyright 2020 Admire Arts. All Rights
+                                © Copyright 2023 Brilliant Brushes. All Rights
                                 Reserved
                             </p>
                         </div>
