@@ -66,7 +66,8 @@
                                             type="hidden" value="">
                                         <button g-recaptcha data-sitekey="6LcqLNoZAAAAAGZmRONuKShUiPohmELb6VbgKNVr"
                                             data-callback='onSubmit' data-action='submit' type="submit"
-                                            data-loading-text="Please wait...">Send Message</button>
+                                            data-loading-text="Please wait..." onclick="onSubmit()">Send
+                                            Message</button>
                                     </div>
                                 </div>
                             </div>
