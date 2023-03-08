@@ -204,7 +204,8 @@
                 <div class="modal-footer">
                     <button type="button" class="btn-two" data-dismiss="modal">Close</button>
                     <button class="g-recaptcha btn-one" data-sitekey="6LcqLNoZAAAAAGZmRONuKShUiPohmELb6VbgKNVr"
-                        data-callback='onSubmit' data-action='submit' style="width: 100%" type="submit">Send</button>
+                        data-callback='onSubmit' data-action='submit' style="width: 100%" type="submit"
+                        onclick="onSubmit()">Send</button>
                 </div>
                 </form>
             </div>
