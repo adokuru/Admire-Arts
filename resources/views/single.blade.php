@@ -222,7 +222,10 @@
     </script>
     <script>
         function onSubmit(token) {
-            document.getElementById("buy-form").submit();
+            if (document.getElementById("buy-form").checkValidity()) {
+                document.getElementById("buy-form").submit();
+            }
+
         }
     </script>
 @endsection
