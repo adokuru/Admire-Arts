@@ -83,7 +83,6 @@
 <script>
     function onSubmit(token) {
         document.getElementById("contact-form").submit();
-        window.location.href = "/contact";
     }
 </script>
 @endsection

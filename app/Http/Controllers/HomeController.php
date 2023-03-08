@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+
 use App\Models\Art;
 use App\Models\Artcontact;
 use App\Models\Artist;
@@ -27,7 +28,6 @@ class HomeController extends Controller
         $feautredart = Art::all()->random(5);
         $artistart = Art::all()->random(9);
         return view('welcome', compact('arts', 'feautredart', 'artistart'));
-
     }
 
     public function artwork()
@@ -54,17 +54,15 @@ class HomeController extends Controller
     public function artist()
     {
         //
-        $artists= Artist::orderBy('DisplayName', 'asc')->paginate(12);
+        $artists = Artist::orderBy('DisplayName', 'asc')->paginate(12);
         return view('artists', compact('artists'));
-
     }
 
     public function blog()
     {
         //
-        $blogs= Artist::orderBy('DisplayName', 'asc')->paginate(12);
+        $blogs = Artist::orderBy('DisplayName', 'asc')->paginate(12);
         return view('blog', compact('blogs'));
-
     }
 
     public function artslug($slug)
@@ -72,18 +70,16 @@ class HomeController extends Controller
         //
         $art = Art::where('slug', $slug)->first();
 
-       
-        
+
+
         return view('single', compact('art'));
     }
-    
+
 
     public function apitest()
     {
         //
-       return Artist::orderBy('DisplayName', 'asc')->paginate(10);
-        
-       
+        return Artist::orderBy('DisplayName', 'asc')->paginate(10);
     }
 
     public function artcontact(Request $request)
@@ -98,26 +94,23 @@ class HomeController extends Controller
             'contact_email' => $request->form_email,
             'note' => $request->form_message,
         ]);
-        
+
         $contact->save();
         return redirect()->route('art.slug', $art->slug)->with('alert', 'Message Sent!');
-        
-       
     }
 
     public function contact()
     {
         //
-        
+
         return view('contact');
     }
 
     public function newsletter()
     {
         //
-       
+
         return redirect()->route('home')->with('alerts', 'Thanks for Subscribing');
-        
     }
 
     public function contactform(Request $request)
@@ -131,32 +124,27 @@ class HomeController extends Controller
             'contact_email' => $request->form_email,
             'note' => $request->form_message,
         ]);
-        
+
         $contact->save();
-        return redirect()->route('contact')->with('contact', 'Message Sent!');
-        
-       
+        return redirect()->route('home')->with('alert', 'Message Sent!');
     }
 
-    
+
 
     public function contactShow($id)
     {
         # code...
         $contact = Artcontact::where('id', $id)->first();
 
-       
-        
+
+
         return view('contactShow', compact('contact'));
     }
 
     public function Museums()
     {
         # code...
-       
+
         return view('Museums');
     }
-    
-
-    
 }
