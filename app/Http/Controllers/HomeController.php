@@ -126,7 +126,7 @@ class HomeController extends Controller
         ]);
 
         $contact->save();
-        return redirect()->route('home')->with('alert', 'Message Sent!');
+        return redirect()->route('contact')->with('alert', 'Message Sent!');
     }
 
 
