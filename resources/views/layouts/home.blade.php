@@ -81,7 +81,7 @@
                         <div class="header-upper-left clearfix float-left">
                             <div class="logo">
                                 <a href="/"><img src="{{ asset('images/logoNew.png') }}" alt="Awesome Logo"
-                                        title="" /></a>
+                                        title="" style="width: 150px" /></a>
                             </div>
                         </div>
                         <div class="header-upper-right float-right clearfix pt-4">
