@@ -15,7 +15,7 @@
     <meta property="og:site_name" content="Brilliant Brushes" />
     <link rel="canonical" href="https://www.brilliantbrushes.co.uk" />
     <meta property="og:url" content="https://www.brilliantbrushes.co.uk" />
-    <meta property="og:image" content="images/resources/Terah1.png" />
+    <meta property="og:image" content="images/resources/logoIcon.png" />
     <meta property="twitter:card" content="summary" />
     <meta name="fragment" content="!" />
     <!-- responsive meta -->
@@ -34,9 +34,9 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/favicon/apple-touch-icon.png') }}" />
-    <link rel="icon" type="image/png" href="{{ asset('images/favicon/fav-32.png') }}" sizes="32x32" />
-    <link rel="icon" type="image/png" href="{{ asset('images/favicon/fav-32.png') }}" sizes="16x16" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('images/logoIcon.png') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('images/logoIcon.png') }}" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ asset('images/logoIcon.png') }}" sizes="16x16" />
 
     <!-- Fixing Internet Explorer-->
     <!--[if lt IE 9]>
@@ -80,8 +80,8 @@
                     <div class="outer-box clearfix bg-white">
                         <div class="header-upper-left clearfix float-left">
                             <div class="logo">
-                                <a href="/"><img src="{{ asset('images/resources/Terah1.png') }}"
-                                        alt="Awesome Logo" title="" /></a>
+                                <a href="/"><img src="{{ asset('images/logoNew.png') }}" alt="Awesome Logo"
+                                        title="" /></a>
                             </div>
                         </div>
                         <div class="header-upper-right float-right clearfix pt-4">
@@ -177,7 +177,7 @@
                             style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
                             <div class="single-footer-widget clr-white marbtm50">
                                 <div class="footer-logo">
-                                    <a href="index-2.html"><img src="{{ asset('images/resources/Terah1.png') }}"
+                                    <a href="/"><img src="{{ asset('images/logoNew.png') }}"
                                             alt="Footer Logo" /></a>
                                 </div>
                                 <div class="text">
