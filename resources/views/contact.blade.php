@@ -36,6 +36,7 @@
                     <div class="inner-box">
                         <form id="contact-form" name="contact_form" class="default-form2"
                             action="{{ route('contactform') }}" method="post">
+                            @csrf
                             <div class="row">
                                 <div class="col-xl-6">
                                     <div class="input-box">
