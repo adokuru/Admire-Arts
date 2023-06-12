@@ -121,8 +121,6 @@ class HomeController extends Controller
             'contact_email' => $request->form_email,
             'note' => $request->form_message,
         ]);
-
-        $contact->save();
         return redirect()->route('contact')->with('alerts', 'Message Sent!');
     }
 
