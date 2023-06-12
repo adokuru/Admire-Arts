@@ -115,10 +115,7 @@ class HomeController extends Controller
 
     public function contactform(Request $request)
     {
-        //
-        //dd($request);
-
-        $contact = new Artcontact([
+        $contact = Artcontact::create([
             'art_id' => 1,
             'contact_name' => $request->form_name,
             'contact_email' => $request->form_email,
@@ -126,7 +123,7 @@ class HomeController extends Controller
         ]);
 
         $contact->save();
-        return redirect()->route('contact')->with('alert', 'Message Sent!');
+        return redirect()->route('contact')->with('alerts', 'Message Sent!');
     }
 
 
